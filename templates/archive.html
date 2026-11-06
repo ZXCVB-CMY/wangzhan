@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block title %}历史 · {{ site.name }}{% endblock %}
+{% block description %}按月份浏览全部历史汽车行业事件，每天一个固定链接。{% endblock %}
+
+{% block main %}
+<section class="lede">
+  <p class="kicker">历史</p>
+  <h1>全部历史</h1>
+  <p class="overview">共 {{ total_days }} 天、{{ total_events }} 条事件。每天一个固定链接，可长期引用；也能按分类横向看同一条主线。</p>
+</section>
+
+{% if cats %}
+<nav class="cats" aria-label="按分类浏览">
+  {% for cat in cats %}
+  <a class="cat-chip" href="{{ root }}category/{{ cat.slug }}/">{{ cat.label }}<span class="chip-num">{{ cat.count }}</span></a>
+  {% endfor %}
+</nav>
+{% endif %}
+
+{% for month in months %}
+<section class="month">
+  <h2 class="month-title">{{ month.label }}<span class="month-count">{{ month.count }} 天</span></h2>
+  <ul class="days">
+    {% for d in month.days %}
+    <li>
+      <a href="{{ root }}{{ d.date }}/">
+        <span class="d-date">{{ d.label }}</span>
+        <span class="d-week">{{ d.weekday }}</span>
+        <span class="d-count">{{ d.count }} 条</span>
+      </a>
+      {% if d.tops %}
+      <ul class="d-tops">
+        {% for t in d.tops %}<li><a href="{{ root }}{{ d.date }}/">{{ t }}</a></li>{% endfor %}
+      </ul>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}
+
+<nav class="more">
+  <a href="{{ root }}">← 回到今日</a>
+  <a href="{{ root }}category/">按分类浏览</a>
+</nav>
+{% endblock %}

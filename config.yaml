@@ -1,0 +1,103 @@
+site:
+  name: 汽车每日事件站
+  tagline: 最近 48 小时的中国汽车行业事件
+  # 留空时用相对路径（本地预览）；上线后填 https://<user>.github.io/<repo>
+  base_url: "https://zxcvb-cmy.github.io/wangzhan"
+  language: zh-CN
+  accent: "#0b5cad"
+  # 页脚"申请下架"的收件地址，留空则不显示
+  contact_email: ""
+  disclaimer: 内容聚合自第一电动网、新浪汽车、中国汽车流通协会等媒体，版权归原作者所有；每条均保留原文链接。
+  copyright_hint: 仅做标题聚合与摘要改写，不转载正文。
+
+window_hours: 48
+daily_limit: 15
+timezone: Asia/Shanghai
+
+# 抓取层：2026-11-06 起接真源。三个能抓的打开，三个抓不动的留档说明。
+sources:
+  d1ev:
+    enabled: true
+    label: 第一电动网
+    weight: 0.95
+  sina:
+    enabled: true
+    label: 新浪汽车
+    weight: 1.0
+  cada:
+    enabled: true
+    label: 中国汽车流通协会
+    weight: 1.0
+  # 假数据源：留着方便本地演示和回归，默认关
+  mock:
+    enabled: false
+    label: 示例数据
+    weight: 0.5
+  # ↓ 以下三个实测抓不动，见各自模块开头的记录
+  cnautonews:
+    enabled: false
+    label: 中国汽车报
+    weight: 1.0
+  autoinfo:
+    enabled: false
+    label: 中国汽车工业信息网
+    weight: 0.8
+  dongchedi:
+    enabled: false
+    label: 懂车帝
+    weight: 0.6
+
+dedupe:
+  # 文本相似度（字符二元组 Dice）高于此值视为同一篇稿子，直接丢弃
+  near_dup_threshold: 0.9
+  # "同一事件"的文本相似度门槛，仅在两边品牌词相同时生效（品牌不同一律不合并）。
+  # 另外两条通道写死在 rank.cluster：文本 ≥ 0.72 直接合；品牌+事件词都撞上时 0.26 起就合。
+  cluster_threshold: 0.45
+
+# 分类：标签 → 固定 URL（/category/<slug>/）。
+# 这里的顺序就是分类页的展示顺序；没声明的标签会自动生成 t-<hash> 链接，无需改代码。
+categories:
+  - {slug: policy, label: 政策}
+  - {slug: recall, label: 召回}
+  - {slug: sales, label: 销量}
+  - {slug: newcar, label: 新车}
+  - {slug: price, label: 价格}
+  - {slug: tech, label: 技术}
+  - {slug: nev, label: 新能源}
+  - {slug: export, label: 出海}
+  - {slug: adas, label: 智驾}
+  - {slug: battery, label: 电池}
+  - {slug: infra, label: 基建}
+  - {slug: earnings, label: 财报}
+  - {slug: commercial, label: 商用车}
+
+rank:
+  category_weights:
+    政策: 1.0
+    召回: 1.0
+    销量: 0.85
+    新车: 0.75
+    价格: 0.65
+    技术: 0.6
+  # 分数的半衰期（小时），越新分数越高
+  recency_halflife_hours: 18
+  # 来源权重对总分的乘数
+  source_weight_scale: 0.6
+
+llm:
+  # 关掉后走离线兜底摘要（不联网、不花钱），骨架阶段默认开着但不影响跑通
+  enabled: true
+  base_url: https://api.deepseek.com/v1
+  model: deepseek-chat
+  api_key_env: LLM_API_KEY
+  timeout: 60
+  max_items: 20
+  # 摘要字数区间，超出会被裁
+  summary_min: 80
+  summary_max: 120
+
+paths:
+  data: data
+  docs: docs
+  templates: templates
+  static: static

@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}{{ site.name }} · {{ date_cn }}{% endblock %}
+{% block description %}{{ overview }}{% endblock %}
+
+{% block main %}
+<section class="lede">
+  <p class="kicker">{{ date_cn }} {{ weekday }}</p>
+  <h1>今日看点</h1>
+  <p class="overview">{{ overview }}</p>
+  <p class="stats">
+    {{ events | length }} 条事件
+    {%- if multi_source_count %} · {{ multi_source_count }} 条为多源合并{% endif %}
+    · 时间窗 {{ window_hours }} 小时
+  </p>
+  {% if pending_sources %}
+  <p class="pending">本日无数据：{% for s in pending_sources %}{{ s.label }}{% if not loop.last %}、{% endif %}{% endfor %}（不影响其他来源）</p>
+  {% endif %}
+</section>
+
+{% if cats %}
+<nav class="cats" aria-label="按分类浏览">
+  {% for cat in cats %}
+  <a class="cat-chip" href="{{ root }}category/{{ cat.slug }}/">{{ cat.label }}<span class="chip-num">{{ cat.count }}</span></a>
+  {% endfor %}
+</nav>
+{% endif %}
+
+{% if events %}
+<section class="list">
+  {% for event in events %}{% include "_card.html" %}{% endfor %}
+</section>
+{% else %}
+<section class="empty">
+  <p>今天还没有满足条件的事件。抓取会在每天 07:00 重跑，稍后再来看看。</p>
+</section>
+{% endif %}
+
+<nav class="more">
+  <a href="{{ root }}archive/">全部历史 →</a>
+  <a href="{{ root }}category/">按分类浏览</a>
+  {% if prev_day %}<a href="{{ root }}{{ prev_day }}/">上一期 · {{ prev_cn }}</a>{% endif %}
+</nav>
+{% endblock %}

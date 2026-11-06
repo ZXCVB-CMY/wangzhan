@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="{{ site.language }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{% block title %}{{ site.name }}{% endblock %}</title>
+<meta name="description" content="{% block description %}{{ site.tagline }}{% endblock %}">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="{{ site.accent }}">
+<link rel="stylesheet" href="{{ root }}static/style.css">
+<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ root }}feed.xml">
+{% block head %}{% endblock %}
+</head>
+<body>
+<header class="site-head">
+  <div class="head-row">
+    <a class="brand" href="{{ root }}">{{ site.name }}</a>
+    <nav class="site-nav">
+      <a href="{{ root }}category/"{% if page == 'cats' %} aria-current="page"{% endif %}>分类</a>
+      <a href="{{ root }}archive/"{% if page == 'history' %} aria-current="page"{% endif %}>历史</a>
+    </nav>
+  </div>
+  <p class="tagline">{{ site.tagline }}</p>
+</header>
+
+<main>
+{% block main %}{% endblock %}
+</main>
+
+<footer class="site-foot">
+  <nav class="foot-nav">
+    <a href="{{ root }}">首页</a>
+    <a href="{{ root }}category/">分类</a>
+    <a href="{{ root }}archive/">历史</a>
+    <a href="{{ root }}feed.xml">RSS</a>
+  </nav>
+  <p class="disclaimer">{{ site.disclaimer }}</p>
+  {% if site.contact_email %}<p class="disclaimer">内容有误或需下架，请联系 <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>。</p>{% endif %}
+  <p class="stamp">生成于 {{ generated_at }}</p>
+</footer>
+</body>
+</html>

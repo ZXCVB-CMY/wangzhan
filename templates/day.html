@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}{{ date }} {{ weekday }} · {{ site.name }}{% endblock %}
+{% block description %}{{ date_cn }} 的 {{ events | length }} 条汽车行业事件。{% endblock %}
+
+{% block main %}
+<section class="lede">
+  <p class="kicker">单日归档</p>
+  <h1>{{ date_cn }} {{ weekday }}</h1>
+  <p class="overview">{{ overview }}</p>
+  <p class="stats">{{ events | length }} 条事件 · 固定链接，长期可用</p>
+</section>
+
+{% if events %}
+<section class="list">
+  {% for event in events %}{% include "_card.html" %}{% endfor %}
+</section>
+{% else %}
+<section class="empty"><p>这一天没有记录到事件。</p></section>
+{% endif %}
+
+<nav class="more">
+  <a href="{{ root }}">← 回到今日</a>
+  <a href="{{ root }}archive/">全部历史</a>
+  <a href="{{ root }}category/">按分类浏览</a>
+  {% if prev_day %}<a href="{{ root }}{{ prev_day }}/">← 前一天 {{ prev_cn }}</a>{% endif %}
+  {% if next_day %}<a href="{{ root }}{{ next_day }}/">后一天 {{ next_cn }} →</a>{% endif %}
+</nav>
+{% endblock %}

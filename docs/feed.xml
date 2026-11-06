@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>汽车每日事件站</title>
+  <link>https://zxcvb-cmy.github.io/wangzhan/</link>
+  <description>最近 48 小时的中国汽车行业事件（每天一条，聚合当天事件）</description>
+  <language>zh-CN</language>
+  <lastBuildDate>Fri, 06 Nov 2026 18:48:19 +0800</lastBuildDate>
+  <docs>https://www.rssboard.org/rss-specification</docs>
+  <item>
+    <title>11 月 6 日 · 汽车行业 15 条事件</title>
+    <link>https://zxcvb-cmy.github.io/wangzhan/2026-11-06/</link>
+    <guid isPermaLink="true">https://zxcvb-cmy.github.io/wangzhan/2026-11-06/</guid>
+    <pubDate>Fri, 06 Nov 2026 07:00:00 +0800</pubDate>
+    <description>美国中期选举结果可能影响汽车关税与电动车政策走向，宝马因中国销量下滑下调盈利预期并加速新车投放，捷途全新自由者以低价上市。
+· 仰望U9X阿布扎比打破量产车公路极速世界纪录 跑出503.17km/h最高时速（新浪汽车）
+· 【国际快讯】美国中期选举结果或影响汽车关税与EV政策走向；宝马Q3税前利润同比下降11%；东盟Q3汽车销量同比增长13%（第一电动网）
+· 奔驰携多款新车亮相第九届进博会（新浪汽车）
+· 驭势科技亮相CeMAT 2026，L4级无人驾驶牵引车实现跨设备协同作业（第一电动网）
+· 捷豹路虎连续九年参展进博会，七款车型集中亮相（第一电动网）</description>
+  </item>
+</channel>
+</rss>

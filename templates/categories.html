@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}分类 · {{ site.name }}{% endblock %}
+{% block description %}按政策、召回、销量、新车、价格、技术等分类浏览全部汽车行业事件。{% endblock %}
+
+{% block main %}
+<section class="lede">
+  <p class="kicker">分类</p>
+  <h1>按分类浏览</h1>
+  <p class="overview">共 {{ total_categories }} 个分类。每个分类下是该主题的全部历史事件，按时间倒序。</p>
+</section>
+
+<section class="cats-page">
+  {% for cat in cats %}
+  <a class="cat-row" href="{{ root }}category/{{ cat.slug }}/">
+    <span class="cat-name">{{ cat.label }}</span>
+    <span class="cat-num">{{ cat.count }} 条</span>
+    <span class="cat-meta">{{ cat.day_count }} 天 · 最近 {{ cat.newest | cn_date }}</span>
+    <span class="cat-arrow">→</span>
+  </a>
+  {% endfor %}
+</section>
+
+<nav class="more">
+  <a href="{{ root }}">← 回到今日</a>
+  <a href="{{ root }}archive/">全部历史</a>
+</nav>
+{% endblock %}

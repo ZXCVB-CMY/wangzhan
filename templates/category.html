@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% set show_date = true %}
+{% block title %}{{ cat.label }} · {{ site.name }}{% endblock %}
+{% block description %}{{ cat.label }}相关的 {{ cat.count }} 条汽车行业事件。{% endblock %}
+
+{% block main %}
+<section class="lede">
+  <p class="kicker">分类</p>
+  <h1>{{ cat.label }}</h1>
+  <p class="stats">
+    {{ cat.count }} 条事件 · 覆盖 {{ cat.day_count }} 天
+    · 最近 {{ cat.newest | cn_date }}
+  </p>
+</section>
+
+{% if cat.events %}
+<section class="list">
+  {% for event in cat.events %}{% include "_card.html" %}{% endfor %}
+</section>
+{% if cat.truncated %}
+<p class="note">只列出最近 80 条，更早的事件请在对应日期的页面查看。</p>
+{% endif %}
+{% else %}
+<section class="empty"><p>这个分类暂时没有事件。</p></section>
+{% endif %}
+
+<nav class="more">
+  <a href="{{ root }}">← 回到今日</a>
+  <a href="{{ root }}category/">全部分类</a>
+  <a href="{{ root }}archive/">全部历史</a>
+</nav>
+{% endblock %}
