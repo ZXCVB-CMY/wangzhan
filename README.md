@@ -86,10 +86,18 @@ python tools/test_llm_stub.py   # 起本地假接口，验证 prompt/解析/缓�
 
 ## 上线
 
-1. 推到 GitHub，仓库 Settings → Pages → Source 选 `Deploy from a branch`，分支 `main`、目录 `/docs`。
-2. `config.yaml` 里把 `site.base_url` 填成 `https://<user>.github.io/<repo>`（RSS 里的绝对链接要用）。
-3. Settings → Secrets → 新建 `LLM_API_KEY`。
-4. Actions 里手动跑一次 `daily` 验证，之后每天 07:10 自动更新。
+仓库已就位：<https://github.com/ZXCVB-CMY/wangzhan>，站点地址 <https://zxcvb-cmy.github.io/wangzhan/>。
+`config.yaml` 的 `site.base_url` 已按这个填好，代码已推到 `main`。
+
+还剩两步只能在 GitHub 网页上点（需要仓库管理员权限）：
+
+1. **开 Pages**：Settings → Pages → Source 选 `Deploy from a branch`，分支 `main`、目录 `/docs`，Save。
+   一两分钟后访问 <https://zxcvb-cmy.github.io/wangzhan/>。
+2. **放 key**：Settings → Secrets and variables → Actions → New repository secret，
+   Name 填 `LLM_API_KEY`，值填 DeepSeek 的 key（建议用新申请的一把，别复用聊天里贴过的那把）。
+
+然后 Actions → `daily` → Run workflow（可留空参数），跑完约 40 秒，
+最后一步会把新生成的 `docs/` 和 `data/` 提交回仓库，Pages 自动重新发布。之后每天 07:10（北京时间）自动跑。
 
 **国内访问**：GitHub Pages 在部分网络下不稳。要备案外的方案就用 Cloudflare Pages 连同一个仓库，
 构建输出目录填 `docs`、不做构建（纯静态），速度明显更好，免费额度够用。
