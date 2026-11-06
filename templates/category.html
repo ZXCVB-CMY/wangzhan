@@ -15,7 +15,7 @@
 
 {% if cat.events %}
 <section class="list">
-  {% for event in cat.events %}{% include "_card.html" %}{% endfor %}
+  {% for event in cat.events %}{% include "card.html" %}{% endfor %}
 </section>
 {% if cat.truncated %}
 <p class="note">只列出最近 80 条，更早的事件请在对应日期的页面查看。</p>

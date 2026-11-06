@@ -1,0 +1,24 @@
+<article class="card">
+  <div class="card-meta">
+    <span class="source">{{ event.source }}</span>
+    <span class="dot">·</span>
+    {% if show_date and event.day %}<a class="day" href="{{ root }}{{ event.day }}/">{{ event.day | cn_date }}</a><span class="dot">·</span>{% endif %}
+    <time datetime="{{ event.published_at_iso }}">{{ event.published_at | hm }}</time>
+    {% if event.summary_kind == 'ai' %}<span class="badge">AI 摘要</span>{% endif %}
+  </div>
+
+  <h2 class="card-title">
+    <a href="{{ event.url }}" target="_blank" rel="noopener noreferrer">{{ event.title }}</a>
+  </h2>
+
+  {% if event.summary and not event.summary_dup %}<p class="card-summary">{{ event.summary }}</p>{% endif %}
+
+  {% if event.comment %}<p class="card-comment"><span class="label">点评</span>{{ event.comment }}</p>{% endif %}
+
+  <div class="card-foot">
+    {% if event.tags %}<span class="tags">{% for t in event.tags[:4] %}{% if tag_slug.get(t) %}<a class="tag" href="{{ root }}category/{{ tag_slug[t] }}/">{{ t }}</a>{% else %}<span class="tag">{{ t }}</span>{% endif %}{% endfor %}</span>{% endif %}
+    {% if event.multi_source %}
+    <span class="also">同事件另有 {{ event.links | length - 1 }} 家：{% for l in event.links[1:3] %}<a href="{{ l.url }}" target="_blank" rel="noopener noreferrer">{{ l.source }}</a>{% if not loop.last %} / {% endif %}{% endfor %}</span>
+    {% endif %}
+  </div>
+</article>

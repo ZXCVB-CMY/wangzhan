@@ -12,7 +12,7 @@
 
 {% if events %}
 <section class="list">
-  {% for event in events %}{% include "_card.html" %}{% endfor %}
+  {% for event in events %}{% include "card.html" %}{% endfor %}
 </section>
 {% else %}
 <section class="empty"><p>这一天没有记录到事件。</p></section>
