@@ -16,7 +16,7 @@
   {% if event.comment %}<p class="card-comment"><span class="label">点评</span>{{ event.comment }}</p>{% endif %}
 
   <div class="card-foot">
-    {% if event.tags %}<span class="tags">{% for t in event.tags[:4] %}{% if tag_slug.get(t) %}<a class="tag" href="{{ root }}category/{{ tag_slug[t] }}/">{{ t }}</a>{% else %}<span class="tag">{{ t }}</span>{% endif %}{% endfor %}</span>{% endif %}
+    {% if event.tags %}<span class="tags">{% for t in event.tags[:4] %}{% if tag_slug.get(t) %}<a class="tag c-{{ tag_slug[t] }}" href="{{ root }}category/{{ tag_slug[t] }}/">{{ t }}</a>{% else %}<span class="tag">{{ t }}</span>{% endif %}{% endfor %}</span>{% endif %}
     {% if event.multi_source %}
     <span class="also">同事件另有 {{ event.links | length - 1 }} 家：{% for l in event.links[1:3] %}<a href="{{ l.url }}" target="_blank" rel="noopener noreferrer">{{ l.source }}</a>{% if not loop.last %} / {% endif %}{% endfor %}</span>
     {% endif %}

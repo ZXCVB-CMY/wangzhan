@@ -5,22 +5,25 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{% block title %}{{ site.name }}{% endblock %}</title>
 <meta name="description" content="{% block description %}{{ site.tagline }}{% endblock %}">
-<meta name="color-scheme" content="light">
-<meta name="theme-color" content="{{ site.accent }}">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="{{ site.accent }}" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0c1016" media="(prefers-color-scheme: dark)">
 <link rel="stylesheet" href="{{ root }}static/style.css">
 <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ root }}feed.xml">
 {% block head %}{% endblock %}
 </head>
 <body>
 <header class="site-head">
-  <div class="head-row">
-    <a class="brand" href="{{ root }}">{{ site.name }}</a>
-    <nav class="site-nav">
-      <a href="{{ root }}category/"{% if page == 'cats' %} aria-current="page"{% endif %}>分类</a>
-      <a href="{{ root }}archive/"{% if page == 'history' %} aria-current="page"{% endif %}>历史</a>
-    </nav>
+  <div class="head-inner">
+    <div class="head-row">
+      <a class="brand" href="{{ root }}">{{ site.name }}</a>
+      <nav class="site-nav">
+        <a href="{{ root }}category/"{% if page == 'cats' %} aria-current="page"{% endif %}>分类</a>
+        <a href="{{ root }}archive/"{% if page == 'history' %} aria-current="page"{% endif %}>历史</a>
+      </nav>
+    </div>
+    <p class="tagline">{{ site.tagline }}</p>
   </div>
-  <p class="tagline">{{ site.tagline }}</p>
 </header>
 
 <main>

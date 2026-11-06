@@ -12,7 +12,7 @@
 {% if cats %}
 <nav class="cats" aria-label="按分类浏览">
   {% for cat in cats %}
-  <a class="cat-chip" href="{{ root }}category/{{ cat.slug }}/">{{ cat.label }}<span class="chip-num">{{ cat.count }}</span></a>
+  <a class="cat-chip c-{{ cat.slug }}" href="{{ root }}category/{{ cat.slug }}/">{{ cat.label }}<span class="chip-num">{{ cat.count }}</span></a>
   {% endfor %}
 </nav>
 {% endif %}

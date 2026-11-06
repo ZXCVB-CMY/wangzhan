@@ -74,7 +74,7 @@ pipeline/
   taxonomy.py            标签 → slug，汇总每个分类跨天的事件
   render.py              Jinja2 → docs/（含历史重渲、分类页、历史页、RSS）
 templates/               base / index / day / archive / categories / category / card / feed.xml
-static/style.css         单文件，8.4KB（预算 10KB）
+static/style.css         单文件，14.4KB（预算 15KB，含深色主题与分类配色）
 tools/                   自检与探测脚本（verify_site.py 查链接与 RSS，test_llm_stub.py 用假接口测 LLM，probe_source.py 判断站点能不能抓，diff_day.py 对比两天的数据看哪条新闻变了）
 data/                    events-YYYY-MM-DD.json 永久留档（重跑可重建全站）
 docs/                    Pages 根目录

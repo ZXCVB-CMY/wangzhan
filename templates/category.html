@@ -4,7 +4,7 @@
 {% block description %}{{ cat.label }}相关的 {{ cat.count }} 条汽车行业事件。{% endblock %}
 
 {% block main %}
-<section class="lede">
+<section class="lede c-{{ cat.slug }}">
   <p class="kicker">分类</p>
   <h1>{{ cat.label }}</h1>
   <p class="stats">
