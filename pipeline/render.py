@@ -147,8 +147,9 @@ def run(cfg: dict, events: list[dict], report: list[dict], summary: dict, now: d
         "stats": {
             "events": len(events_s),
             "multi_source": sum(1 for e in events_s if e.get("multi_source")),
-            # 是否启用了 AI 摘要（含命中缓存的情况），不是"这一轮有没有新调接口"
-            "llm": bool(summary.get("online")),
+            # 是否启用 AI 摘要：看配置，不看本机有没有 key，
+            # 否则本地（无 key）与 CI（有 key）产出的数据文件会互相覆盖、天天 diff
+            "llm": bool(cfg.get("llm", {}).get("enabled")),
         },
     }
     # 数据留档：内容没变就不重写，保留最早那次生成的 generated_at，
