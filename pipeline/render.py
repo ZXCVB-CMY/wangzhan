@@ -31,6 +31,26 @@ WEEKDAYS = ["周一", "周二", "周三", "周四", "周五", "周六", "周日"
 _DATE_DIR = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
 
+def _write_text(path: Path, text: str) -> bool:
+    """内容没变就不落盘，且一律用 LF 写盘。返回是否真的写了。
+
+    两个目的：
+    1. Windows 上默认会把 \\n 写成 \\r\\n，和 Linux 产物不一致，git diff 会整站翻新；
+    2. 重跑一遍没有新内容时，产物一个字节都不该变，git diff 应该是空的。
+    """
+    data = text.encode("utf-8")
+    if path.exists():
+        try:
+            if path.read_bytes() == data:
+                return False
+        except OSError:
+            pass
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "wb") as f:
+        f.write(data)
+    return True
+
+
 def _date_cn(d: datetime) -> str:
     return f"{d.month} 月 {d.day} 日"
 
@@ -70,6 +90,9 @@ def _serialize(events: list[dict]) -> list[dict]:
     out = []
     for e in events:
         row = dict(e)
+        # score 里带"距今多少小时"的时间衰减，每跑一次都会漂一点点；
+        # 页面上不展示，留着只会让无变化的构建也产生 diff。
+        row.pop("score", None)
         row["published_at_iso"] = _iso(e["published_at"])
         row["published_at"] = row["published_at_iso"]
         row["links"] = [
@@ -119,7 +142,8 @@ def run(cfg: dict, events: list[dict], report: list[dict], summary: dict, now: d
         "generated_at": now.isoformat(),
         "overview": summary.get("overview", ""),
         "events": events_s,
-        "sources": report,
+        # 留存抓取报告时去掉耗时：ms 每轮都会变，会把无变化的构建变成一次 diff
+        "sources": [{k: v for k, v in r.items() if k != "ms"} for r in report],
         "stats": {
             "events": len(events_s),
             "multi_source": sum(1 for e in events_s if e.get("multi_source")),
@@ -127,9 +151,22 @@ def run(cfg: dict, events: list[dict], report: list[dict], summary: dict, now: d
             "llm": bool(summary.get("online")),
         },
     }
-    (data_dir / f"events-{date_str}.json").write_text(
-        json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8"
-    )
+    # 数据留档：内容没变就不重写，保留最早那次生成的 generated_at，
+    # 这样同一天重跑不会因为时间戳产生 diff。
+    events_path = data_dir / f"events-{date_str}.json"
+    if events_path.exists():
+        try:
+            old = json.loads(events_path.read_text(encoding="utf-8"))
+            same = {k: v for k, v in old.items() if k != "generated_at"} == {
+                k: v for k, v in payload.items() if k != "generated_at"
+            }
+            if same and old.get("generated_at"):
+                payload["generated_at"] = old["generated_at"]
+        except (OSError, ValueError):
+            pass
+    written = 0
+    if _write_text(events_path, json.dumps(payload, ensure_ascii=False, indent=1)):
+        written += 1
 
     history = _load_history(data_dir, date_str)
     days = sorted(set(history) | {date_str})
@@ -142,16 +179,22 @@ def run(cfg: dict, events: list[dict], report: list[dict], summary: dict, now: d
     env = _env(templates_dir)
     ctx_base = {
         "site": site,
-        "generated_at": now.strftime("%Y-%m-%d %H:%M"),
+        # 页脚显示的"更新于"：跟这一页的数据日期走，而不是构建时刻，
+        # 否则每次构建所有页面都会差一行，git 历史全是噪音。
+        "updated": date_str,
         "window_hours": cfg.get("window_hours", 48),
         "cats": cats,
         "tag_slug": tag_slug,
     }
 
     def render(template: str, out_path: Path, root_prefix: str, page: str = "", **extra) -> None:
-        html = env.get_template(template).render(root=root_prefix, page=page, **ctx_base, **extra)
-        out_path.parent.mkdir(parents=True, exist_ok=True)
-        out_path.write_text(html, encoding="utf-8")
+        nonlocal written
+        ctx = dict(ctx_base)
+        ctx.update(extra)
+        ctx.update(root=root_prefix, page=page)
+        html = env.get_template(template).render(**ctx)
+        if _write_text(out_path, html):
+            written += 1
 
     pending = [r for r in report if r["status"] in ("error", "pending")]
 
@@ -185,6 +228,7 @@ def run(cfg: dict, events: list[dict], report: list[dict], summary: dict, now: d
             docs_dir / date / "index.html",
             "../",
             page="day",
+            updated=date,
             date=date,
             date_cn=_date_cn(d),
             weekday=_weekday(d),
@@ -243,6 +287,7 @@ def run(cfg: dict, events: list[dict], report: list[dict], summary: dict, now: d
             docs_dir / "category" / cat["slug"] / "index.html",
             "../../",
             page="cats",
+            updated=cat.get("newest") or date_str,
             cat=cat,
         )
 
@@ -263,14 +308,16 @@ def run(cfg: dict, events: list[dict], report: list[dict], summary: dict, now: d
                 "description": "\n".join(x for x in lines if x),
             }
         )
-    render("feed.xml", docs_dir / "feed.xml", "", days=feed_days, last_build=format_datetime(now))
+    # lastBuildDate 固定为当日 07:10，而不是构建时刻，否则每次重跑 RSS 都会变
+    feed_build = datetime.strptime(date_str, "%Y-%m-%d").replace(hour=7, minute=10, tzinfo=CN_TZ)
+    render("feed.xml", docs_dir / "feed.xml", "", days=feed_days, last_build=format_datetime(feed_build))
 
     # 静态资源 & Pages 开关
     target_static = docs_dir / "static"
     if target_static.exists():
         shutil.rmtree(target_static)
     shutil.copytree(static_dir, target_static)
-    (docs_dir / ".nojekyll").write_text("", encoding="utf-8")
+    _write_text(docs_dir / ".nojekyll", "")
 
     # 删掉 data 里已经不存在的日期页 / 分类页，避免产物里留下幽灵链接
     live_days = set(days)
@@ -290,4 +337,5 @@ def run(cfg: dict, events: list[dict], report: list[dict], summary: dict, now: d
         "pages": len(days) + 4 + len(cats),
         "events": len(events_s),
         "categories": len(cats),
+        "written": written,
     }

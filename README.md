@@ -73,9 +73,9 @@ pipeline/
   summarize.py           摘要 + 点评 + 今日看点，LLM 失败自动降级
   taxonomy.py            标签 → slug，汇总每个分类跨天的事件
   render.py              Jinja2 → docs/（含历史重渲、分类页、历史页、RSS）
-templates/               base / index / day / archive / categories / category / _card / feed.xml
+templates/               base / index / day / archive / categories / category / card / feed.xml
 static/style.css         单文件，8.4KB（预算 10KB）
-tools/                   自检与探测脚本（verify_site.py 查链接与 RSS，test_llm_stub.py 用假接口测 LLM，probe_source.py 判断站点能不能抓）
+tools/                   自检与探测脚本（verify_site.py 查链接与 RSS，test_llm_stub.py 用假接口测 LLM，probe_source.py 判断站点能不能抓，diff_day.py 对比两天的数据看哪条新闻变了）
 data/                    events-YYYY-MM-DD.json 永久留档（重跑可重建全站）
 docs/                    Pages 根目录
 .github/workflows/daily.yml   每天 07:10（北京时间）构建并提交
@@ -86,7 +86,10 @@ docs/                    Pages 根目录
 ```bash
 python tools/verify_site.py     # 卡片数、全站相对链接、分类页、RSS、历史统计
 python tools/test_llm_stub.py   # 起本地假接口，验证 prompt/解析/缓存/渲染，不花钱
+python tools/diff_day.py        # 最近两天的数据对比：新增/消失/标题改写
 ```
+
+没有新内容时重跑构建，产物应该一个字节都不变（`[6/6]` 那行会打印「产物无变化：0 个文件重写」）。做到这一点靠三件事：落盘统一用 LF（`.gitattributes` + `render.py` 的 `_write_text`）、写之前逐字节比对、页脚与 RSS 的时间戳只用日期/固定时刻。
 
 ## 上线
 

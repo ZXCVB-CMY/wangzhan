@@ -280,7 +280,9 @@ class Summarizer:
         self.data_dir.mkdir(parents=True, exist_ok=True)
         self.cache["__version__"] = PROMPT_VERSION
         tmp = self.cache_path.with_suffix(".tmp")
-        tmp.write_text(json.dumps(self.cache, ensure_ascii=False, indent=1), encoding="utf-8")
+        # 显式 LF：缓存也要进仓库，Windows 默认 CRLF 会让 diff 整文件翻转
+        with open(tmp, "w", encoding="utf-8", newline="\n") as f:
+            f.write(json.dumps(self.cache, ensure_ascii=False, indent=1))
         tmp.replace(self.cache_path)
 
 

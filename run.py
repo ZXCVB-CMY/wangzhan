@@ -97,6 +97,11 @@ def main() -> int:
         f"[6/6] 渲染：{result['events']} 条事件 → {result['docs']}"
         f"（{result['pages']} 个页面，{result['days']} 天，{result['categories']} 个分类）"
     )
+    total_files = result["pages"] + 1  # 页面 + feed.xml
+    if result.get("written", total_files) == 0:
+        print("      产物无变化：0 个文件重写")
+    else:
+        print(f"      实际写入 {result['written']} 个文件，其余未变")
     print(f"\n总耗时 {time.time() - started:.1f}s。本地预览：file:///{result['docs'].replace(chr(92), '/')}/index.html")
     return 0
 
