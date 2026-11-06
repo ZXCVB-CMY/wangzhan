@@ -1,15 +1,19 @@
 # 汽车每日事件站
 
 最近 48 小时的中国汽车行业事件，一天一页，每条带摘要、一句点评、原文链接和标签。
-纯静态、无 JS、无后端。**当前阶段：接上了三个真源，每天自动抓取。**
+纯静态、无 JS、无后端。**当前阶段：已上线，每天 07:10 自动更新。**
+
+线上地址：<https://zxcvb-cmy.github.io/wangzhan/>（Actions 每天构建 → 提交 `docs/` → Pages 发布）
 
 ## 现在是什么状态
 
-- 模板、样式、渲染、RSS、单日固定链接、**分类页**、**历史页**、GitHub Actions 定时任务：**已完成，可跑**
+- 模板、样式、渲染、RSS、单日固定链接、**分类页**、**历史页**、GitHub Actions 定时任务：**已完成，线上在跑**
 - 抓取：`d1ev`（第一电动网）、`sina`（新浪汽车）、`cada`（中国汽车流通协会）三个真源已接通；
   `mock` 保留用于离线开发和自检，默认关闭
 - 摘要：LLM（DeepSeek `deepseek-chat`）已接通，没有 key 时自动降级为规则摘要（页面照常生成，不会崩）；
   摘要只改写源站导语，不许新增数字/机构/时间，素材只有标题时摘要会退化成标题复述 —— 这种卡片干脆不显示摘要行
+- **已用 Actions 实跑验证**：三个源在机房 IP 上全部可达（第一电动 30 条 ~60s、新浪 15 条 ~13s、协会 30 条 ~18s），
+  一轮全量摘要 2201 prompt + 2021 completion tokens
 
 ## 页面结构
 
@@ -86,18 +90,20 @@ python tools/test_llm_stub.py   # 起本地假接口，验证 prompt/解析/缓�
 
 ## 上线
 
-仓库已就位：<https://github.com/ZXCVB-CMY/wangzhan>，站点地址 <https://zxcvb-cmy.github.io/wangzhan/>。
-`config.yaml` 的 `site.base_url` 已按这个填好，代码已推到 `main`。
+仓库：<https://github.com/ZXCVB-CMY/wangzhan>，站点：<https://zxcvb-cmy.github.io/wangzhan/>。
+以下都已经做完，写在这里是为了以后照着重做：
 
-还剩两步只能在 GitHub 网页上点（需要仓库管理员权限）：
+1. Settings → Pages → Source 选 `Deploy from a branch`，分支 `main`、目录 `/docs`。
+2. Settings → Secrets and variables → Actions → `LLM_API_KEY`（DeepSeek key）。
+3. Actions → `daily` → Run workflow。构建约 1.5 分钟，最后一步把 `docs/` 和 `data/` 提交回仓库，
+   Pages 自动重新发布。之后每天 07:10（北京时间）自动跑。
 
-1. **开 Pages**：Settings → Pages → Source 选 `Deploy from a branch`，分支 `main`、目录 `/docs`，Save。
-   一两分钟后访问 <https://zxcvb-cmy.github.io/wangzhan/>。
-2. **放 key**：Settings → Secrets and variables → Actions → New repository secret，
-   Name 填 `LLM_API_KEY`，值填 DeepSeek 的 key（建议用新申请的一把，别复用聊天里贴过的那把）。
+**运维备忘**
 
-然后 Actions → `daily` → Run workflow（可留空参数），跑完约 40 秒，
-最后一步会把新生成的 `docs/` 和 `data/` 提交回仓库，Pages 自动重新发布。之后每天 07:10（北京时间）自动跑。
+- 手动补跑：Actions → `daily` → Run workflow，可填 `sources`（如 `d1ev`）或把 `no_llm` 设为 `true`。
+- 换 key：更新 `LLM_API_KEY` secret，再手动跑一次；缓存里已有的摘要不会重算。
+- 想强制重写全部摘要：把 `data/.llm-cache.json` 清成 `{}` 再跑一次（一轮约 4k tokens）。
+- 看构建日志：Actions → 对应 run → build → 各步骤；抓取失败会以 `[FAIL]` 行显示原因，不会中断整体流程。
 
 **国内访问**：GitHub Pages 在部分网络下不稳。要备案外的方案就用 Cloudflare Pages 连同一个仓库，
 构建输出目录填 `docs`、不做构建（纯静态），速度明显更好，免费额度够用。
