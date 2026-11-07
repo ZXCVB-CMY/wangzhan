@@ -160,6 +160,7 @@ def _to_event(group: list[dict]) -> dict:
 
     summary_raw = max((i.get("summary_raw", "") for i in group), key=len, default="")
     cover = next((i["cover"] for i in group if i.get("cover")), "")
+    stamps = [i["fetched_at"] for i in group if i.get("fetched_at")]
 
     return {
         "id": hashlib.sha1(head["url"].encode()).hexdigest()[:10],
@@ -168,6 +169,8 @@ def _to_event(group: list[dict]) -> dict:
         "source": head["source_label"],
         "sources": sorted(seen_sources),
         "published_at": head["published_at"],
+        # 一个事件可能被多个源报道，收录时间取最早的那次：第一次被我们看到的时间
+        "fetched_at": min(stamps) if stamps else None,
         "summary_raw": summary_raw,
         "cover": cover,
         "tags": tags,

@@ -11,7 +11,8 @@ ROOT = Path(__file__).resolve().parent.parent
 os.chdir(ROOT)
 
 docs = Path("docs")
-data_files = sorted(Path("data").glob("events-*.json"))
+data_dir = Path("data")
+data_files = sorted(data_dir.glob("events-*.json"))
 if not data_files:
     sys.exit("data/ 里没有事件文件，先跑 run.py")
 latest = data_files[-1]
@@ -31,6 +32,8 @@ print("has 点评 block:", html.count('class="card-comment"'))
 print("tag pills:", len(re.findall(r'class="tag(?: c-[\w-]+)?"', html)))
 print("multi-source line:", html.count("同事件另有"))
 print("pending notice:", "本日无数据" in html)
+print("发布 stamps:", html.count('<span class="k">发布</span>'), "| 收录 stamps:", html.count('<span class="k">收录</span>'))
+print("first-seen state entries:", len(json.loads((data_dir / ".first-seen.json").read_text(encoding="utf-8"))) if (data_dir / ".first-seen.json").exists() else 0)
 
 missing = []
 pages = sorted(docs.rglob("*.html"))

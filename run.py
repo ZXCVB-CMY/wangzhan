@@ -21,7 +21,7 @@ from pathlib import Path
 
 import yaml
 
-from pipeline import clean, dedupe, fetch, rank, render, summarize
+from pipeline import clean, dedupe, fetch, rank, render, seen, summarize
 from sources.base import CN_TZ
 
 ROOT = Path(__file__).resolve().parent
@@ -70,7 +70,12 @@ def main() -> int:
     # 2-3. 清洗 + 去重
     cleaned = clean.clean_all(raw, now)
     kept, dropped = dedupe.dedupe(cleaned, cfg.get("dedupe", {}).get("near_dup_threshold", 0.9))
-    print(f"\n[2/6] 清洗：{len(cleaned)} 条有效；[3/6] 去重：丢弃 {dropped} 条重复")
+    data_dir = ROOT / cfg.get("paths", {}).get("data", "data")
+    new_seen = seen.stamp(kept, data_dir, now)
+    print(
+        f"\n[2/6] 清洗：{len(cleaned)} 条有效；[3/6] 去重：丢弃 {dropped} 条重复；"
+        f"首次收录 +{new_seen}"
+    )
 
     # 4. 排序与聚类
     events, stats = rank.run(kept, now, cfg)

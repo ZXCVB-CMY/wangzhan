@@ -1,9 +1,9 @@
 <article class="card">
+  {% set day_href = (root ~ event.day ~ '/') if (show_date and event.day) else '' %}
   <div class="card-meta">
     <span class="source">{{ event.source }}</span>
-    <span class="dot">·</span>
-    {% if show_date and event.day %}<a class="day" href="{{ root }}{{ event.day }}/">{{ event.day | cn_date }}</a><span class="dot">·</span>{% endif %}
-    <time datetime="{{ event.published_at_iso }}">{{ event.published_at | hm }}</time>
+    {% if day_href %}<a class="stamp day" href="{{ day_href }}" title="查看 {{ event.day | cn_date }} 这一天"><span class="k">发布</span><time datetime="{{ event.published_at_iso }}" title="{{ event.published_at_iso }}">{{ event.published_at | dt }}</time></a>{% else %}<span class="stamp"><span class="k">发布</span><time datetime="{{ event.published_at_iso }}" title="{{ event.published_at_iso }}">{{ event.published_at | dt }}</time></span>{% endif %}
+    {% if event.fetched_at %}<span class="stamp"><span class="k">收录</span><time datetime="{{ event.fetched_at_iso }}" title="{{ event.fetched_at_iso }}">{{ event.fetched_at | dt }}</time></span>{% endif %}
     {% if event.summary_kind == 'ai' %}<span class="badge">AI 摘要</span>{% endif %}
   </div>
 

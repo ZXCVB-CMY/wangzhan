@@ -104,6 +104,8 @@ def clean_item(raw: dict, now: datetime) -> dict | None:
         "source_id": raw.get("source_id", ""),
         "source_label": raw.get("source_label", ""),
         "published_at": published,
+        # 首次收录时间由 pipeline/seen.py 统一打戳；这里只做透传与解析。
+        "fetched_at": parse_time(raw.get("fetched_at", "")),
         "summary_raw": summary,
         "cover": (raw.get("cover") or "").strip(),
         "tags": [t.strip() for t in (raw.get("tags") or []) if t and t.strip()],

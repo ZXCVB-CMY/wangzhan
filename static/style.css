@@ -313,18 +313,28 @@ main {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 7px;
+  gap: 3px 7px;
   margin-bottom: 8px;
   font-size: 12.5px;
+  line-height: 1.25;
   color: var(--ink-3);
   font-variant-numeric: tabular-nums;
 }
+.card-meta > * + *::before {
+  content: "·";
+  margin-right: 7px;
+  color: color-mix(in srgb, var(--ink-3) 45%, transparent);
+}
+.card-meta > .badge::before { content: none; }
 .card-meta .source { color: var(--ink-2); font-weight: 600; letter-spacing: .01em; }
-.card-meta .dot { color: color-mix(in srgb, var(--ink-3) 45%, transparent); }
+.card-meta .stamp { white-space: nowrap; }
+.card-meta .stamp .k { font-size: 11.5px; color: var(--ink-3); margin-right: 3px; }
+.card-meta .stamp time { color: var(--ink-2); }
 .card-meta .day {
   color: var(--ink-3);
   border-bottom: 1px dotted color-mix(in srgb, var(--ink-3) 45%, transparent);
 }
+.card-meta .day time { color: inherit; }
 .card-meta .day:hover { color: var(--accent); text-decoration: none; }
 
 .card-title {

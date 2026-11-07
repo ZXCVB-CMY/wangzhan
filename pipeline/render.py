@@ -70,6 +70,16 @@ def _hm(d) -> str:
     return d.strftime("%H:%M")
 
 
+def _dt(d) -> str:
+    """卡片上的时间戳：永远带日期，`11-06 18:06`。"""
+    if isinstance(d, str):
+        try:
+            d = datetime.fromisoformat(d)
+        except ValueError:
+            return d
+    return d.strftime("%m-%d %H:%M")
+
+
 def _iso(d) -> str:
     return d.isoformat() if isinstance(d, datetime) else str(d)
 
@@ -82,6 +92,7 @@ def _env(templates_dir: Path) -> Environment:
         lstrip_blocks=True,
     )
     env.filters["hm"] = _hm
+    env.filters["dt"] = _dt
     env.filters["cn_date"] = _cn_from_date
     return env
 
@@ -95,6 +106,9 @@ def _serialize(events: list[dict]) -> list[dict]:
         row.pop("score", None)
         row["published_at_iso"] = _iso(e["published_at"])
         row["published_at"] = row["published_at_iso"]
+        if e.get("fetched_at"):
+            row["fetched_at_iso"] = _iso(e["fetched_at"])
+            row["fetched_at"] = row["fetched_at_iso"]
         row["links"] = [
             {**link, "published_at": _iso(link["published_at"])} for link in e.get("links", [])
         ]
