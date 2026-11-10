@@ -1,0 +1,524 @@
+{
+ "date": "2026-11-11",
+ "generated_at": "2026-11-11T07:37:39.726262+08:00",
+ "overview": "今日新闻主线是新能源车市销量分化与车企产能交付冲刺：大众、华境、小米澎程、蔚来等公布亮眼交付数据，特斯拉Model Y销量骤降；比亚迪智驾切自研、第1900万辆下线，宁德时代签约四城公交电池更换，长城提升H10产能保交付。",
+ "events": [
+  {
+   "id": "1c428802bc",
+   "title": "8.99万的德系插混轿车卖爆！大众ID. ERA 5S细分市场登顶",
+   "url": "https://www.d1ev.com/news/qiye/316478",
+   "source": "第一电动网",
+   "sources": [
+    "第一电动网"
+   ],
+   "published_at": "2026-11-10T17:03:00+08:00",
+   "fetched_at": "2026-11-11T07:37:39+08:00",
+   "summary_raw": "快科技11月10日消息，大众中国新能源业务真的好起来了！上汽大众官宣，旗下ID.ERA5S在10月零售销量突破7100台，问鼎插电式混动轿车市场销量冠军。值得一提的是，上月中旬，该车交付量就突破了10000台，彼时另有17053台订单有序交付中，即便后续再无新增，目前仍手握超1万台大定订单，何况这种假设根本不成立。",
+   "cover": "https://cdn-fs.d1ev.com/d/file/photo/2026/11/1794301746199.png!216x144",
+   "tags": [
+    "销量",
+    "新能源"
+   ],
+   "links": [
+    {
+     "source": "第一电动网",
+     "url": "https://www.d1ev.com/news/qiye/316478",
+     "title": "8.99万的德系插混轿车卖爆！大众ID. ERA 5S细分市场登顶",
+     "published_at": "2026-11-10T17:03:00+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "上汽大众官宣，ID.ERA 5S在10月零售销量突破7100台，问鼎插电式混动轿车市场销量冠军。上月中旬该车交付量突破10000台，彼时另有17053台订单有序交付中，目前仍手握超1万台大定订单。",
+   "comment": "德系插混以低价策略登顶，合资新能源反攻信号显现。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-10T17:03:00+08:00",
+   "fetched_at_iso": "2026-11-11T07:37:39+08:00"
+  },
+  {
+   "id": "36ae715b82",
+   "title": "华境S累计交付突破4万台",
+   "url": "https://www.d1ev.com/news/shichang/316451",
+   "source": "第一电动网",
+   "sources": [
+    "第一电动网"
+   ],
+   "published_at": "2026-11-10T14:16:00+08:00",
+   "fetched_at": "2026-11-11T07:37:39+08:00",
+   "summary_raw": "盖世汽车获悉11月10日，华境汽车官方宣布，旗下大型插电式混合动力SUV华境S累计交付量突破40,000台，并连续四个月蝉联插电式混动大型SUV零售销量冠军。据官方交付数据，华境S在10月完成交付7,507台，实现连续六个月增长；9月交付7,416台、8月交付7,306台、7月交付7,203台、6月交付5,689台。",
+   "cover": "https://cdn-fs.d1ev.com/d/file/photo/2026/11/1794292746676.jpeg!216x144",
+   "tags": [
+    "销量",
+    "新能源"
+   ],
+   "links": [
+    {
+     "source": "第一电动网",
+     "url": "https://www.d1ev.com/news/shichang/316451",
+     "title": "华境S累计交付突破4万台",
+     "published_at": "2026-11-10T14:16:00+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "华境汽车宣布，旗下大型插电式混合动力SUV华境S累计交付量突破40000台，连续四个月蝉联插电式混动大型SUV零售销量冠军。10月交付7507台，实现连续六个月增长。",
+   "comment": "大型插混SUV市场格局生变，华境S持续放量。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-10T14:16:00+08:00",
+   "fetched_at_iso": "2026-11-11T07:37:39+08:00"
+  },
+  {
+   "id": "add16b1000",
+   "title": "小米澎程10月交付27,132台，N70、N90分获细分市场销量第一",
+   "url": "https://www.d1ev.com/news/shichang/316447",
+   "source": "第一电动网",
+   "sources": [
+    "第一电动网"
+   ],
+   "published_at": "2026-11-10T13:43:00+08:00",
+   "fetched_at": "2026-11-11T07:37:39+08:00",
+   "summary_raw": "11月9日，小米澎程官微发布消息，全国乘用车10月零售销量榜陆续出炉：N70拿下增程车销量第一、中大型SUV销量第一，N90拿下大型SUV销量第一（不限能源类型）。据懂车帝月度销量榜单，澎程系列10月单月共交付27,132台，其中N70交付14,545台、N90交付12,587台，N90同时位居增程车销量第二。",
+   "cover": "https://cdn-fs.d1ev.com/d/file/photo/2026/11/1794289746287.jpeg!216x144",
+   "tags": [
+    "销量",
+    "新能源"
+   ],
+   "links": [
+    {
+     "source": "第一电动网",
+     "url": "https://www.d1ev.com/news/shichang/316447",
+     "title": "小米澎程10月交付27,132台，N70、N90分获细分市场销量第一",
+     "published_at": "2026-11-10T13:43:00+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "小米澎程官微发布，10月全国乘用车零售销量榜中，N70拿下增程车销量第一、中大型SUV销量第一，N90拿下大型SUV销量第一。澎程系列10月共交付27132台，其中N70交付14545台、N90交付12587台。",
+   "comment": "小米澎程双车细分市场登顶，增程赛道竞争加剧。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-10T13:43:00+08:00",
+   "fetched_at_iso": "2026-11-11T07:37:39+08:00"
+  },
+  {
+   "id": "586d6a776f",
+   "title": "李斌：ES9连续拿下5月50万级纯电销冠 本周将迎第4万台交付",
+   "url": "https://www.d1ev.com/news/qiye/316418",
+   "source": "第一电动网",
+   "sources": [
+    "第一电动网"
+   ],
+   "published_at": "2026-11-10T11:14:00+08:00",
+   "fetched_at": "2026-11-11T07:37:39+08:00",
+   "summary_raw": "快科技11月10日消息，蔚来李斌今日发文宣布，2026年10月蔚来ES9连续第五个月斩获50万级纯电车型市场销量第一，本周即将迎来第40,000台新车交付。同时，蔚来全新ES8蝉联40万级车型市场销量第一，上市至今累计交付已超16万台，两款旗舰SUV持续领跑各自细分赛道。",
+   "cover": "https://cdn-fs.d1ev.com/d/file/photo/2026/11/1794280746177.png!216x144",
+   "tags": [
+    "销量",
+    "新能源"
+   ],
+   "links": [
+    {
+     "source": "第一电动网",
+     "url": "https://www.d1ev.com/news/qiye/316418",
+     "title": "李斌：ES9连续拿下5月50万级纯电销冠 本周将迎第4万台交付",
+     "published_at": "2026-11-10T11:14:00+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "蔚来李斌发文宣布，2026年10月蔚来ES9连续第五个月斩获50万级纯电车型市场销量第一，本周即将迎来第40000台新车交付。同时，全新ES8蝉联40万级车型市场销量第一，上市至今累计交付超16万台。",
+   "comment": "蔚来高端纯电市场地位稳固，旗舰车型持续领跑。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-10T11:14:00+08:00",
+   "fetched_at_iso": "2026-11-11T07:37:39+08:00"
+  },
+  {
+   "id": "e77034a8fe",
+   "title": "特斯拉中国10月销量暴跌！Model Y仅7807辆 从第1掉至66名",
+   "url": "https://www.d1ev.com/news/qiye/316397",
+   "source": "第一电动网",
+   "sources": [
+    "第一电动网"
+   ],
+   "published_at": "2026-11-10T10:02:00+08:00",
+   "fetched_at": "2026-11-11T07:37:39+08:00",
+   "summary_raw": "快科技11月10日消息，据懂车帝排行榜最新数据，2026年10月特斯拉ModelY国内零售销量仅为7,807辆，较9月的50,359辆减少42,552辆，排名从第1位直接跌至第66位。从月度走势看，ModelY今年4月至9月的零售销量分别为22,990辆、28,911辆、38,654辆、25,158辆、29,260辆和50,359辆，排名基本稳定在全车型榜前三，6月和9月两度拿下月销冠军。",
+   "cover": "https://cdn-fs.d1ev.com/d/file/photo/2026/11/1794276245919.png!216x144",
+   "tags": [
+    "销量"
+   ],
+   "links": [
+    {
+     "source": "第一电动网",
+     "url": "https://www.d1ev.com/news/qiye/316397",
+     "title": "特斯拉中国10月销量暴跌！Model Y仅7807辆 从第1掉至66名",
+     "published_at": "2026-11-10T10:02:00+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "据懂车帝排行榜数据，2026年10月特斯拉Model Y国内零售销量仅7807辆，较9月的50359辆减少42552辆，排名从第1位跌至第66位。今年4月至9月其零售销量在2.2万至5万辆之间，排名基本稳定在全车型榜前三。",
+   "comment": "特斯拉销量断崖式下滑，或受产品周期与竞争影响。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-10T10:02:00+08:00",
+   "fetched_at_iso": "2026-11-11T07:37:39+08:00"
+  },
+  {
+   "id": "5fd85271c7",
+   "title": "问界M8上市19个月 累计交付突破19万台",
+   "url": "https://www.d1ev.com/news/shichang/316394",
+   "source": "第一电动网",
+   "sources": [
+    "第一电动网"
+   ],
+   "published_at": "2026-11-10T09:24:00+08:00",
+   "fetched_at": "2026-11-11T07:37:39+08:00",
+   "summary_raw": "盖世汽车获悉11月9日，问界汽车官微宣布，家庭智慧旗舰SUV问界M8上市19个月累计交付突破190,000台，同时获得上市周期“40万元级SUV销量第一”与“30—40万元级新能源车型净推荐值（NPS）第一”两项市场标杆成绩。图片来源：问界汽车问界M8于2025年4月16日首次上市，由赛力斯汽车与华为联合设计，定位家庭智慧旗舰SUV，提供五座与六座版本，官方指导价35.98万至44.98万元。",
+   "cover": "https://cdn-fs.d1ev.com/d/file/photo/2026/11/1794274750806.jpeg!216x144",
+   "tags": [
+    "销量",
+    "新能源"
+   ],
+   "links": [
+    {
+     "source": "第一电动网",
+     "url": "https://www.d1ev.com/news/shichang/316394",
+     "title": "问界M8上市19个月 累计交付突破19万台",
+     "published_at": "2026-11-10T09:24:00+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "问界汽车宣布，家庭智慧旗舰SUV问界M8上市19个月累计交付突破190000台，获得上市周期“40万元级SUV销量第一”与“30—40万元级新能源车型净推荐值第一”两项成绩。",
+   "comment": "问界M8交付量印证华为智选模式在中高端市场成功。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-10T09:24:00+08:00",
+   "fetched_at_iso": "2026-11-11T07:37:39+08:00"
+  },
+  {
+   "id": "bb15aadf3b",
+   "title": "魏牌二代蓝山开启预售28.98万元起，搭载全地形AI与6C超充",
+   "url": "https://www.d1ev.com/news/qiye/316370",
+   "source": "第一电动网",
+   "sources": [
+    "第一电动网"
+   ],
+   "published_at": "2026-11-10T00:02:00+08:00",
+   "fetched_at": "2026-11-11T07:37:39+08:00",
+   "summary_raw": "分享新车首发全地形AI体系，座舱搭载CoffeeAIOS4与MasterAgent，辅助驾驶采用CoffeePilot4V5全地形方案（高通骁龙8797与英伟达Thor-U双芯片、28颗传感器）。11月9日，魏牌二代蓝山正式开启预售。",
+   "cover": "http://www.autor.com.cn/uploads/1/image/public/202611/20261110000159_kc9tusmi5h.jpg",
+   "tags": [
+    "新车",
+    "技术"
+   ],
+   "links": [
+    {
+     "source": "第一电动网",
+     "url": "https://www.d1ev.com/news/qiye/316370",
+     "title": "魏牌二代蓝山开启预售28.98万元起，搭载全地形AI与6C超充",
+     "published_at": "2026-11-10T00:02:00+08:00"
+    },
+    {
+     "source": "第一电动网",
+     "url": "https://www.d1ev.com/news/shichang/316410",
+     "title": "魏牌二代蓝山开启预售，28.98万元起",
+     "published_at": "2026-11-10T10:32:00+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "11月9日，魏牌二代蓝山正式开启预售，预售价28.98万元起。新车搭载全地形AI体系，座舱采用CoffeeAIOS4与MasterAgent，辅助驾驶采用CoffeePilot4V5全地形方案…",
+   "comment": "魏牌二代蓝山以AI与超充配置加码中大型SUV竞争。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-10T00:02:00+08:00",
+   "fetched_at_iso": "2026-11-11T07:37:39+08:00"
+  },
+  {
+   "id": "4f3b076885",
+   "title": "2026年9月中国车企出口新动态：欧洲与独联体市场成重要出口目的地丨盖世汽车研究院",
+   "url": "https://www.d1ev.com/news/shichang/316428",
+   "source": "第一电动网",
+   "sources": [
+    "第一电动网"
+   ],
+   "published_at": "2026-11-10T11:24:00+08:00",
+   "fetched_at": "2026-11-11T07:37:39+08:00",
+   "summary_raw": "根据盖世汽车研究院出口数据库，2026年1-9月，中国汽车出口持续拓展全球市场，出口目的地包含欧洲、东南亚、中东、南美等多个区域，覆盖多种动力类型。从各区域出口企业排名来看，不同车企的市场布局和出口表现呈现出一定差异：部分企业凭借多品牌布局和规模优势，在多个区域保持较大出口体量；部分企业则在特定市场实现较快增长，逐步扩大海外业务规模。",
+   "cover": "https://cdn-fs.d1ev.com/d/file/photo/2026/11/1794282252388.jpeg!216x144",
+   "tags": [
+    "出海"
+   ],
+   "links": [
+    {
+     "source": "第一电动网",
+     "url": "https://www.d1ev.com/news/shichang/316428",
+     "title": "2026年9月中国车企出口新动态：欧洲与独联体市场成重要出口目的地丨盖世汽车研究院",
+     "published_at": "2026-11-10T11:24:00+08:00"
+    },
+    {
+     "source": "第一电动网",
+     "url": "https://www.d1ev.com/news/shichang/316471",
+     "title": "2026年1-9月中国乘用车出海，谁在领航：奇瑞欧洲增长275.7%，比亚迪领跑中南美丨盖世汽车研究院",
+     "published_at": "2026-11-10T16:03:00+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "根据盖世汽车研究院出口数据库，2026年1-9月中国汽车出口持续拓展全球市场，目的地包含欧洲、东南亚、中东、南美等区域，覆盖多种动力类型。各区域出口企业排名显示，部分企业凭借多品牌布局和规模优势保持较大出口体量…",
+   "comment": "中国车企出口多点开花，欧洲与独联体市场重要性提升。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-10T11:24:00+08:00",
+   "fetched_at_iso": "2026-11-11T07:37:39+08:00"
+  },
+  {
+   "id": "7ba064cdb6",
+   "title": "塞拉尼斯第三季度净销售额26亿美元，同比增长6%",
+   "url": "https://www.d1ev.com/news/shichang/316469",
+   "source": "第一电动网",
+   "sources": [
+    "第一电动网"
+   ],
+   "published_at": "2026-11-10T15:24:00+08:00",
+   "fetched_at": "2026-11-11T07:37:39+08:00",
+   "summary_raw": "盖世汽车获悉，塞拉尼斯近日公布2026年第三季度业绩。财报显示，公司第三季度净销售额为26亿美元，较2025年同期增长6%，主要得益于战略增长举措推进及产品组合层面的商业举措，环比下降7%，反映第二季度之后符合预期的回落。",
+   "cover": "https://cdn-fs.d1ev.com/d/file/photo/2026/11/1794297252548.jpeg!216x144",
+   "tags": [
+    "财报"
+   ],
+   "links": [
+    {
+     "source": "第一电动网",
+     "url": "https://www.d1ev.com/news/shichang/316469",
+     "title": "塞拉尼斯第三季度净销售额26亿美元，同比增长6%",
+     "published_at": "2026-11-10T15:24:00+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "塞拉尼斯公布2026年第三季度业绩，净销售额为26亿美元，较2025年同期增长6%，主要得益于战略增长举措推进及产品组合层面的商业举措；环比下降7%，反映第二季度之后符合预期的回落。",
+   "comment": "塞拉尼斯营收同比增长，战略举措初见成效。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-10T15:24:00+08:00",
+   "fetched_at_iso": "2026-11-11T07:37:39+08:00"
+  },
+  {
+   "id": "7a14b2c496",
+   "title": "公交电池进入更换窗口，四城同日牵手宁德时代",
+   "url": "https://www.d1ev.com/news/shichang/316448",
+   "source": "第一电动网",
+   "sources": [
+    "第一电动网"
+   ],
+   "published_at": "2026-11-10T13:35:00+08:00",
+   "fetched_at": "2026-11-11T07:37:39+08:00",
+   "summary_raw": "盖世汽车讯据宁德时代消息，近日，本溪客运集团、常州公交集团、贵阳公交集团、兰州公交集团分别与宁德时代完成战略签约。合作内容不只是一件事。",
+   "cover": "https://cdn-fs.d1ev.com/d/file/photo/2026/11/1794289749704.jpeg!216x144",
+   "tags": [
+    "电池",
+    "商用车"
+   ],
+   "links": [
+    {
+     "source": "第一电动网",
+     "url": "https://www.d1ev.com/news/shichang/316448",
+     "title": "公交电池进入更换窗口，四城同日牵手宁德时代",
+     "published_at": "2026-11-10T13:35:00+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "据宁德时代消息，近日本溪客运集团、常州公交集团、贵阳公交集团、兰州公交集团分别与宁德时代完成战略签约。合作内容不只是一件事。",
+   "comment": "公交电池更换窗口开启，宁德时代锁定四城订单。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-10T13:35:00+08:00",
+   "fetched_at_iso": "2026-11-11T07:37:39+08:00"
+  },
+  {
+   "id": "635fbc0de6",
+   "title": "2030年5TWh需求逼近，国轩高科亮出全链条布局",
+   "url": "https://www.d1ev.com/news/shichang/316444",
+   "source": "第一电动网",
+   "sources": [
+    "第一电动网"
+   ],
+   "published_at": "2026-11-10T12:38:00+08:00",
+   "fetched_at": "2026-11-11T07:37:39+08:00",
+   "summary_raw": "盖世汽车了解到，在十七届国际先进电动车锂电池大会（ABAA-17）上，国轩高科披露了全固态电池、磷酸锰铁锂与全球化产能的最新进展。值得注意的是，在开幕式致辞上，董事长李缜则把话题拉回产业周期本身。",
+   "cover": "https://cdn-fs.d1ev.com/d/file/photo/2026/11/1794286746344.jpeg!216x144",
+   "tags": [
+    "电池",
+    "技术"
+   ],
+   "links": [
+    {
+     "source": "第一电动网",
+     "url": "https://www.d1ev.com/news/shichang/316444",
+     "title": "2030年5TWh需求逼近，国轩高科亮出全链条布局",
+     "published_at": "2026-11-10T12:38:00+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "在十七届国际先进电动车锂电池大会上，国轩高科披露了全固态电池、磷酸锰铁锂与全球化产能的最新进展。董事长李缜在开幕式致辞中把话题拉回产业周期本身。",
+   "comment": "国轩高科全链条布局应对5TWh需求，固态电池进展受关注。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-10T12:38:00+08:00",
+   "fetched_at_iso": "2026-11-11T07:37:39+08:00"
+  },
+  {
+   "id": "b799ff9e07",
+   "title": "比亚迪智驾低调切自研",
+   "url": "https://www.d1ev.com/news/qiye/316438",
+   "source": "第一电动网",
+   "sources": [
+    "第一电动网"
+   ],
+   "published_at": "2026-11-10T12:38:00+08:00",
+   "fetched_at": "2026-11-11T07:37:39+08:00",
+   "summary_raw": "10月19日，也就是车主群出现“暗改”讨论的三天前，第一电动从比亚迪相关人士处获悉：自9月下旬起，比亚迪全线产品智驾算法已陆续切换自研。",
+   "cover": "https://cdn-fs.d1ev.com/d/file/custom/288042/image/202611/1794285590230844.jpg?w=810&h=540!216x144",
+   "tags": [
+    "智驾",
+    "技术"
+   ],
+   "links": [
+    {
+     "source": "第一电动网",
+     "url": "https://www.d1ev.com/news/qiye/316438",
+     "title": "比亚迪智驾低调切自研",
+     "published_at": "2026-11-10T12:38:00+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "10月19日，第一电动从比亚迪相关人士处获悉，自9月下旬起，比亚迪全线产品智驾算法已陆续切换自研。此前三天车主群出现“暗改”讨论。",
+   "comment": "比亚迪智驾低调切自研，强化核心技术自主可控。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-10T12:38:00+08:00",
+   "fetched_at_iso": "2026-11-11T07:37:39+08:00"
+  },
+  {
+   "id": "864b7045c1",
+   "title": "丰田将反向进口美国产凯美瑞，重返日本本土市场",
+   "url": "https://www.d1ev.com/news/shichang/316439",
+   "source": "第一电动网",
+   "sources": [
+    "第一电动网"
+   ],
+   "published_at": "2026-11-10T12:10:00+08:00",
+   "fetched_at": "2026-11-11T07:37:39+08:00",
+   "summary_raw": "盖世汽车讯据日经新闻报道，丰田汽车最快将于本月在日本重新上市凯美瑞（Camry），计划把这款美国生产的轿车打造为日本市场的主力车型。图片来源：丰田汽车这家日本头部车企近期已经向经销商公布上市细则。",
+   "cover": "https://cdn-fs.d1ev.com/d/file/photo/2026/11/1794285249639.jpeg!216x144",
+   "tags": [
+    "出海"
+   ],
+   "links": [
+    {
+     "source": "第一电动网",
+     "url": "https://www.d1ev.com/news/shichang/316439",
+     "title": "丰田将反向进口美国产凯美瑞，重返日本本土市场",
+     "published_at": "2026-11-10T12:10:00+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "据日经新闻报道，丰田汽车最快将于本月在日本重新上市凯美瑞，计划把这款美国生产的轿车打造为日本市场的主力车型。这家日本头部车企近期已向经销商公布上市细则。",
+   "comment": "丰田反向进口美国产凯美瑞，本土市场策略调整。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-10T12:10:00+08:00",
+   "fetched_at_iso": "2026-11-11T07:37:39+08:00"
+  },
+  {
+   "id": "59e02c24a9",
+   "title": "比亚迪第1900万辆新能源汽车下线，方程豹钛9同步开启预订",
+   "url": "https://www.d1ev.com/news/shichang/316433",
+   "source": "第一电动网",
+   "sources": [
+    "第一电动网"
+   ],
+   "published_at": "2026-11-10T11:58:00+08:00",
+   "fetched_at": "2026-11-11T07:37:39+08:00",
+   "summary_raw": "11月9日，比亚迪第1900万辆新能源汽车在西安工厂正式下线，下线车型为方程豹钛9。同日，方程豹钛9开启全国预订。",
+   "cover": "https://cdn-fs.d1ev.com/d/file/photo/2026/11/1794283746279.jpeg!216x144",
+   "tags": [
+    "新能源",
+    "新车"
+   ],
+   "links": [
+    {
+     "source": "第一电动网",
+     "url": "https://www.d1ev.com/news/shichang/316433",
+     "title": "比亚迪第1900万辆新能源汽车下线，方程豹钛9同步开启预订",
+     "published_at": "2026-11-10T11:58:00+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "11月9日，比亚迪第1900万辆新能源汽车在西安工厂正式下线，下线车型为方程豹钛9。同日，方程豹钛9开启全国预订。",
+   "comment": "比亚迪产量里程碑再刷新，方程豹钛9开启预订。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-10T11:58:00+08:00",
+   "fetched_at_iso": "2026-11-11T07:37:39+08:00"
+  },
+  {
+   "id": "237b08509c",
+   "title": "魏建军：长城H10产能大幅提升，11月力保18000台、挑战20000台",
+   "url": "https://www.d1ev.com/news/qiye/316431",
+   "source": "第一电动网",
+   "sources": [
+    "第一电动网"
+   ],
+   "published_at": "2026-11-10T11:54:00+08:00",
+   "fetched_at": "2026-11-11T07:37:39+08:00",
+   "summary_raw": "盖世汽车讯11月10日，长城汽车董事长魏建军通过个人微博发布消息，长城H10的产能已经得到大幅度提升，11月在确保品质的基础上，力保生产18000台，挑战生产20000台。他同时表示，当天来到工厂帮用户催单，一线同事工作认真，并向耐心等待交付的用户表示感谢。",
+   "cover": "https://cdn-fs.d1ev.com/d/file/photo/2026/11/1794283746314.jpeg!216x144",
+   "tags": [
+    "销量",
+    "新车"
+   ],
+   "links": [
+    {
+     "source": "第一电动网",
+     "url": "https://www.d1ev.com/news/qiye/316431",
+     "title": "魏建军：长城H10产能大幅提升，11月力保18000台、挑战20000台",
+     "published_at": "2026-11-10T11:54:00+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "长城汽车董事长魏建军通过个人微博发布消息，长城H10的产能已经得到大幅度提升，11月在确保品质的基础上，力保生产18000台，挑战生产20000台。他表示当天来到工厂帮用户催单，并向耐心等待交付的用户表示感谢。",
+   "comment": "长城H10产能爬坡，魏建军亲自催单保交付。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-10T11:54:00+08:00",
+   "fetched_at_iso": "2026-11-11T07:37:39+08:00"
+  }
+ ],
+ "sources": [
+  {
+   "source_id": "d1ev",
+   "label": "第一电动网",
+   "status": "ok",
+   "count": 30,
+   "error": ""
+  },
+  {
+   "source_id": "sina",
+   "label": "新浪汽车",
+   "status": "ok",
+   "count": 15,
+   "error": ""
+  },
+  {
+   "source_id": "cada",
+   "label": "中国汽车流通协会",
+   "status": "error",
+   "count": 0,
+   "error": "RuntimeError: 中国汽车流通协会列表页抓取失败：/Trends/list_91_1.html: HTTPStatusError: Server error '504 Gateway Timeout' for url 'https://www.cada.cn/Trends/list_91_1.html'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504; /Trends/list_92_1.html: HTTPStatusError: Server error '504 Gateway Timeout' for url 'https://www.cada.cn/Trends/list_92_1.html'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504; /Data/list_85_1.html: HTTPStatusError: Server error '504 Gateway Timeout' for url 'https://www.cada.cn/Data/list_85_1.html'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504",
+   "trace": "Traceback (most recent call last):\n  File \"/home/runner/work/wangzhan/wangzhan/pipeline/fetch.py\", line 31, in run\n    raw = module.fetch(limit=30) or []\n          ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/wangzhan/wangzhan/sources/cada.py\", line 98, in fetch\n    raise RuntimeError(\"中国汽车流通协会列表页抓取失败：\" + \"; \".join(errors[:3]))\nRuntimeError: 中国汽车流通协会列表页抓取失败：/Trends/list_91_1.html: HTTPStatusError: Server error '504 Gateway Timeout' for url 'https://www.cada.cn/Trends/list_91_1.html'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504; /Trends/list_92_1.html: HTTPStatusError: Server error '504 Gateway Timeout' for url 'https://www.cada.cn/Trends/list_92_1.html'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504; /Data/list_85_1.html: HTTPStatusError: Server error '504 Gateway Timeout' for url 'https://www.cada.cn/Data/list_85_1.html'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504\n"
+  }
+ ],
+ "stats": {
+  "events": 15,
+  "multi_source": 0,
+  "llm": true
+ }
+}
