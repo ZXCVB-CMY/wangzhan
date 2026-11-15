@@ -1,0 +1,34 @@
+{
+ "date": "2026-11-16",
+ "generated_at": "2026-11-16T07:46:41.307369+08:00",
+ "overview": "今天没有满足条件的新事件。",
+ "events": [],
+ "sources": [
+  {
+   "source_id": "d1ev",
+   "label": "第一电动网",
+   "status": "ok",
+   "count": 30,
+   "error": ""
+  },
+  {
+   "source_id": "sina",
+   "label": "新浪汽车",
+   "status": "ok",
+   "count": 15,
+   "error": ""
+  },
+  {
+   "source_id": "cada",
+   "label": "中国汽车流通协会",
+   "status": "ok",
+   "count": 30,
+   "error": ""
+  }
+ ],
+ "stats": {
+  "events": 0,
+  "multi_source": 0,
+  "llm": true
+ }
+}
