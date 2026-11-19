@@ -1,0 +1,99 @@
+{
+ "date": "2026-11-20",
+ "generated_at": "2026-11-20T07:44:45.943810+08:00",
+ "overview": "中国汽车流通协会今日推动人才议题：一面汇编十二项流通人才培养案例，一面在福州办产教融合论坛，聚焦后市场人才缺口与供需对接。",
+ "events": [
+  {
+   "id": "846db119f2",
+   "title": "2026汽车流通行业人才培养实践案例集发布",
+   "url": "https://www.cada.cn/Trends/info_91_10595.html",
+   "source": "中国汽车流通协会",
+   "sources": [
+    "中国汽车流通协会"
+   ],
+   "published_at": "2026-11-19T16:08:41+08:00",
+   "fetched_at": "2026-11-20T07:44:45+08:00",
+   "summary_raw": "我国新能源汽车产业全球化布局持续深化，产业链、供应链、服务链同步向外延伸，对适配国内流通场景、支撑海外市场拓展的高素质技术技能人才，提出了更高、更紧迫的要求。为系统总结汽车流通领域产教协同育人成果，凝练特色培养模式，推广成熟实践经验，促进行业、院校、企业多方资源联动，中国汽车流通协会组织汇编形成《 2026 汽车流通行业人才培养实践案例集》。 本册遴选十二项代表性实践案例，聚焦二手车检测评估、汽车售后服务、汽车直播营销、门店运营等核心岗位 。",
+   "cover": "",
+   "tags": [
+    "新能源",
+    "政策"
+   ],
+   "links": [
+    {
+     "source": "中国汽车流通协会",
+     "url": "https://www.cada.cn/Trends/info_91_10595.html",
+     "title": "2026汽车流通行业人才培养实践案例集发布",
+     "published_at": "2026-11-19T16:08:41+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "中国汽车流通协会组织汇编形成《2026汽车流通行业人才培养实践案例集》，遴选十二项代表性实践案例，聚焦二手车检测评估、汽车售后服务、汽车直播营销、门店运营等核心岗位，旨在总结产教协同育人成果、推广成熟实践经验，促进多方资源联动。",
+   "comment": "人才短板正从制造端转向流通端，案例集能否落地见效是关键。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-19T16:08:41+08:00",
+   "fetched_at_iso": "2026-11-20T07:44:45+08:00"
+  },
+  {
+   "id": "c5f421cd35",
+   "title": "应用型人才培育与行业创新成果论坛在福州举行",
+   "url": "https://www.cada.cn/Trends/info_91_10594.html",
+   "source": "中国汽车流通协会",
+   "sources": [
+    "中国汽车流通协会"
+   ],
+   "published_at": "2026-11-19T16:05:24+08:00",
+   "fetched_at": "2026-11-20T07:44:45+08:00",
+   "summary_raw": "11 月 11 日，以 “聚力产教融合·赋能汽车后市场” 为主题的 2026 汽车流通行业应用型人才培育与行业创新成果论坛在福州举行。来自行业协会、整车与经销企业、二手车与鉴定评估机构、本科院校、职业院校及科技企业的代表齐聚一堂，围绕汽车后市场人才缺口、培养模式创新、供需高效对接等议题交流。 中国汽车流通协会副会长 罗磊 在致辞中表示，以产教融合赋能汽车市场人才供给，既是协会服务行业的重要抓手，也是企业提质、院校育人的共同机遇；",
+   "cover": "",
+   "tags": [
+    "政策"
+   ],
+   "links": [
+    {
+     "source": "中国汽车流通协会",
+     "url": "https://www.cada.cn/Trends/info_91_10594.html",
+     "title": "应用型人才培育与行业创新成果论坛在福州举行",
+     "published_at": "2026-11-19T16:05:24+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "11月11日，以“聚力产教融合·赋能汽车后市场”为主题的2026汽车流通行业应用型人才培育与行业创新成果论坛在福州举行，行业协会、整车与经销企业、二手车与鉴定评估机构、院校及科技企业代表围绕后市场人才缺口、培养模式创新、供需对接交流。",
+   "comment": "院校、车企、经销商同台，说明后市场人才缺口已成共识。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-19T16:05:24+08:00",
+   "fetched_at_iso": "2026-11-20T07:44:45+08:00"
+  }
+ ],
+ "sources": [
+  {
+   "source_id": "d1ev",
+   "label": "第一电动网",
+   "status": "error",
+   "count": 0,
+   "error": "RuntimeError: 第一电动网所有栏目都抓取失败：/news: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404; /news/shichang: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news/shichang'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404; /news/qiye: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news/qiye'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+   "trace": "Traceback (most recent call last):\n  File \"/home/runner/work/wangzhan/wangzhan/pipeline/fetch.py\", line 31, in run\n    raw = module.fetch(limit=30) or []\n          ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/wangzhan/wangzhan/sources/d1ev.py\", line 98, in fetch\n    raise RuntimeError(\"第一电动网所有栏目都抓取失败：\" + \"; \".join(errors[:3]))\nRuntimeError: 第一电动网所有栏目都抓取失败：/news: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404; /news/shichang: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news/shichang'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404; /news/qiye: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news/qiye'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404\n"
+  },
+  {
+   "source_id": "sina",
+   "label": "新浪汽车",
+   "status": "ok",
+   "count": 15,
+   "error": ""
+  },
+  {
+   "source_id": "cada",
+   "label": "中国汽车流通协会",
+   "status": "ok",
+   "count": 30,
+   "error": ""
+  }
+ ],
+ "stats": {
+  "events": 2,
+  "multi_source": 0,
+  "llm": true
+ }
+}
