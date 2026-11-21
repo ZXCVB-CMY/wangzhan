@@ -1,0 +1,232 @@
+{
+ "date": "2026-11-22",
+ "generated_at": "2026-11-22T07:39:55.222012+08:00",
+ "overview": "共收录 6 条事件，集中在新车 2 条、新能源 2 条、销量 2 条。最受关注的是：大众5X上市背后：上汽大众如何重建新能源竞争力。",
+ "events": [
+  {
+   "id": "ecd52d00d6",
+   "title": "大众5X上市背后：上汽大众如何重建新能源竞争力",
+   "url": "https://auto.sina.com.cn/news/2026-11-20/detail-inizkqia7205479.shtml",
+   "source": "新浪汽车",
+   "sources": [
+    "新浪汽车"
+   ],
+   "published_at": "2026-11-20T17:57:50+08:00",
+   "fetched_at": "2026-11-21T07:47:57+08:00",
+   "summary_raw": "11月12日，上汽 大众 ID。 ERA 5X正式上市。新车四个版本的限时权益价为9.99万—13.99万元，提供415公里和520公里两档CLTC续航。若只看价格，它是上汽大众对十万元级纯电SUV市场的一次正面回应；",
+   "cover": "",
+   "tags": [
+    "新车",
+    "价格",
+    "新能源"
+   ],
+   "links": [
+    {
+     "source": "新浪汽车",
+     "url": "https://auto.sina.com.cn/news/2026-11-20/detail-inizkqia7205479.shtml",
+     "title": "大众5X上市背后：上汽大众如何重建新能源竞争力",
+     "published_at": "2026-11-20T17:57:50+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "11月12日，上汽大众ID. ERA 5X正式上市，四个版本限时权益价9.99万—13.99万元，提供415公里和520公里两档CLTC续航。文章指出，若只看价格，这是上汽大众对十万元级纯电SUV市场的一次正面回应。",
+   "comment": "低价入局能否助上汽大众重建新能源竞争力，值得关注。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-20T17:57:50+08:00",
+   "fetched_at_iso": "2026-11-21T07:47:57+08:00"
+  },
+  {
+   "id": "4d4ba88d45",
+   "title": "Holger Hampf：MINI设计不靠颠覆证明创新",
+   "url": "https://auto.sina.com.cn/news/2026-11-20/detail-inizkqia7182372.shtml",
+   "source": "新浪汽车",
+   "sources": [
+    "新浪汽车"
+   ],
+   "published_at": "2026-11-20T17:29:01+08:00",
+   "fetched_at": "2026-11-21T07:47:57+08:00",
+   "summary_raw": "对MINI而言，这个问题尤其具体。圆形大灯、短前后悬、悬浮式车顶、撞色车顶，以及被反复提及的“卡丁车驾感”，共同构成了品牌延续数十",
+   "cover": "",
+   "tags": [
+    "技术"
+   ],
+   "links": [
+    {
+     "source": "新浪汽车",
+     "url": "https://auto.sina.com.cn/news/2026-11-20/detail-inizkqia7182372.shtml",
+     "title": "Holger Hampf：MINI设计不靠颠覆证明创新",
+     "published_at": "2026-11-20T17:29:01+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "文章围绕MINI设计展开，提到圆形大灯、短前后悬、悬浮式车顶、撞色车顶以及“卡丁车驾感”等元素，共同构成品牌延续数十年的设计特征。Holger Hampf表示MINI设计不靠颠覆证明创新。",
+   "comment": "在电动化转型中，MINI如何平衡经典设计与创新是一大看点。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-20T17:29:01+08:00",
+   "fetched_at_iso": "2026-11-21T07:47:57+08:00"
+  },
+  {
+   "id": "8b45746d45",
+   "title": "车市扫描(2026年11月1日-11月8日)",
+   "url": "https://www.cada.cn/Trends/info_91_10596.html",
+   "source": "中国汽车流通协会",
+   "sources": [
+    "中国汽车流通协会"
+   ],
+   "published_at": "2026-11-20T16:46:56+08:00",
+   "fetched_at": "2026-11-21T07:47:57+08:00",
+   "summary_raw": "1.本周车市概述 乘用车： 11月1-15日，全国乘用车市场零售61.1万辆，同比去年11月同期下降25%，较上月同期下降6%，今年以来累计零售1,558.9万辆，同比下降22%；11月1-15日，全国乘用车厂商批发72.2万辆，同比去年11月同期下降23%，较上月同期增长11%，今年以来累计批发2,309.2万辆，同比下降7%。",
+   "cover": "",
+   "tags": [
+    "销量"
+   ],
+   "links": [
+    {
+     "source": "中国汽车流通协会",
+     "url": "https://www.cada.cn/Trends/info_91_10596.html",
+     "title": "车市扫描(2026年11月1日-11月8日)",
+     "published_at": "2026-11-20T16:46:56+08:00"
+    },
+    {
+     "source": "中国汽车流通协会",
+     "url": "https://www.cada.cn/Trends/info_91_10598.html",
+     "title": "车市扫描(2026年11月9日-11月15日)",
+     "published_at": "2026-11-20T16:50:17+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "11月1-15日，全国乘用车市场零售61.1万辆，同比去年11月同期下降25%，较上月同期下降6%；今年以来累计零售1,558.9万辆，同比下降22%。同期厂商批发72.2万辆，同比下降23%，环比增长11%；",
+   "comment": "零售同比大幅下滑，车市年底冲量压力凸显。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-20T16:46:56+08:00",
+   "fetched_at_iso": "2026-11-21T07:47:57+08:00"
+  },
+  {
+   "id": "e854c02f0a",
+   "title": "2026年10月份全国乘用车市场分析",
+   "url": "https://www.cada.cn/Trends/info_91_10597.html",
+   "source": "中国汽车流通协会",
+   "sources": [
+    "中国汽车流通协会"
+   ],
+   "published_at": "2026-11-20T16:46:56+08:00",
+   "fetched_at": "2026-11-21T07:47:57+08:00",
+   "summary_raw": "1.2026年10月全国乘用车市场回顾 零售： 2026年10月全国乘用车市场零售164.3万辆，同比下降27.1%，环比增长1.5%；1-10月乘用车累计零售1,497.8万辆，同比下降22.3%。 在2026年10月车市大盘承压、零售同比下滑的背景下，出口的强劲表现成为支撑车企销量的关键变量，且出口结构呈现出明显的“中低价主流车型”特征，这直接促进了主流自主品牌在业绩分化中表现更为突出。",
+   "cover": "",
+   "tags": [
+    "销量",
+    "出海"
+   ],
+   "links": [
+    {
+     "source": "中国汽车流通协会",
+     "url": "https://www.cada.cn/Trends/info_91_10597.html",
+     "title": "2026年10月份全国乘用车市场分析",
+     "published_at": "2026-11-20T16:46:56+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "2026年10月全国乘用车市场零售164.3万辆，同比下降27.1%，环比增长1.5%；1-10月累计零售1,497.8万辆，同比下降22.3%。在车市大盘承压、零售同比下滑的背景下，出口的强劲表现成为支撑车企销量的关键变量…",
+   "comment": "出口成销量关键支撑，自主品牌借中低价车型突围。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-20T16:46:56+08:00",
+   "fetched_at_iso": "2026-11-21T07:47:57+08:00"
+  },
+  {
+   "id": "14ed13ccb1",
+   "title": "入局东南亚 千台岚图梦想家9右舵版出海",
+   "url": "https://auto.sina.com.cn/news/hy/2026-11-20/detail-inizkcth7224047.shtml",
+   "source": "新浪汽车",
+   "sources": [
+    "新浪汽车"
+   ],
+   "published_at": "2026-11-20T12:08:16+08:00",
+   "fetched_at": "2026-11-21T07:47:57+08:00",
+   "summary_raw": "2026年11月20日，武汉岚图黄金工厂，千台岚图梦想家9右舵版（海外命名DREAM9）发运仪式隆重举行。本次活动是湖北省近年来出口金额、发运",
+   "cover": "",
+   "tags": [
+    "出海",
+    "新能源"
+   ],
+   "links": [
+    {
+     "source": "新浪汽车",
+     "url": "https://auto.sina.com.cn/news/hy/2026-11-20/detail-inizkcth7224047.shtml",
+     "title": "入局东南亚 千台岚图梦想家9右舵版出海",
+     "published_at": "2026-11-20T12:08:16+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "2026年11月20日，千台岚图梦想家9右舵版（海外命名DREAM9）发运仪式在武汉岚图黄金工厂举行。本次活动是湖北省近年来出口金额、发运规模较大的项目之一，标志着岚图正式入局东南亚市场。",
+   "comment": "千台右舵版出海，岚图东南亚布局迈出实质性一步。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-20T12:08:16+08:00",
+   "fetched_at_iso": "2026-11-21T07:47:57+08:00"
+  },
+  {
+   "id": "db56d89a76",
+   "title": "猛士登峰智野体验营落地北京五棵松 猛士X700复刻全地形挑战",
+   "url": "https://auto.sina.com.cn/news/hy/2026-11-20/detail-inizixmr0464406.shtml",
+   "source": "新浪汽车",
+   "sources": [
+    "新浪汽车"
+   ],
+   "published_at": "2026-11-20T10:27:21+08:00",
+   "fetched_at": "2026-11-21T07:47:57+08:00",
+   "summary_raw": "日前，猛士登峰智野体验营北京站登陆北京华熙LIVE·五棵松文化体育广场，将专业全地形越野赛道搬进城市核心商圈，猛士M817 Ultimate",
+   "cover": "",
+   "tags": [
+    "新车"
+   ],
+   "links": [
+    {
+     "source": "新浪汽车",
+     "url": "https://auto.sina.com.cn/news/hy/2026-11-20/detail-inizixmr0464406.shtml",
+     "title": "猛士登峰智野体验营落地北京五棵松 猛士X700复刻全地形挑战",
+     "published_at": "2026-11-20T10:27:21+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "日前，猛士登峰智野体验营北京站登陆北京华熙LIVE·五棵松文化体育广场，将专业全地形越野赛道搬进城市核心商圈，猛士M817 Ultimate等车型参与，猛士X700复刻全地形挑战。",
+   "comment": "商圈越野体验有助于拉近硬派越野与城市消费者的距离。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-20T10:27:21+08:00",
+   "fetched_at_iso": "2026-11-21T07:47:57+08:00"
+  }
+ ],
+ "sources": [
+  {
+   "source_id": "d1ev",
+   "label": "第一电动网",
+   "status": "error",
+   "count": 0,
+   "error": "RuntimeError: 第一电动网所有栏目都抓取失败：/news: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404; /news/shichang: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news/shichang'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404; /news/qiye: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news/qiye'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+   "trace": "Traceback (most recent call last):\n  File \"/home/runner/work/wangzhan/wangzhan/pipeline/fetch.py\", line 31, in run\n    raw = module.fetch(limit=30) or []\n          ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/wangzhan/wangzhan/sources/d1ev.py\", line 98, in fetch\n    raise RuntimeError(\"第一电动网所有栏目都抓取失败：\" + \"; \".join(errors[:3]))\nRuntimeError: 第一电动网所有栏目都抓取失败：/news: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404; /news/shichang: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news/shichang'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404; /news/qiye: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news/qiye'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404\n"
+  },
+  {
+   "source_id": "sina",
+   "label": "新浪汽车",
+   "status": "ok",
+   "count": 15,
+   "error": ""
+  },
+  {
+   "source_id": "cada",
+   "label": "中国汽车流通协会",
+   "status": "ok",
+   "count": 30,
+   "error": ""
+  }
+ ],
+ "stats": {
+  "events": 6,
+  "multi_source": 0,
+  "llm": true
+ }
+}
