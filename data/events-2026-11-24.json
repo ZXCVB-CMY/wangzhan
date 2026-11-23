@@ -1,0 +1,68 @@
+{
+ "date": "2026-11-24",
+ "generated_at": "2026-11-24T07:51:57.315632+08:00",
+ "overview": "郑州日产以NV200为载体，将产品叙事从通勤工具转向周末户外生活场景，反映车企竞争逻辑向用户生活方式延伸。",
+ "events": [
+  {
+   "id": "52bc3e889f",
+   "title": "郑州日产NV200 解锁100种栖野生活",
+   "url": "https://auto.sina.com.cn/news/2026-11-23/detail-iniztrzu5465565.shtml",
+   "source": "新浪汽车",
+   "sources": [
+    "新浪汽车"
+   ],
+   "published_at": "2026-11-23T20:31:14+08:00",
+   "fetched_at": "2026-11-24T07:51:57+08:00",
+   "summary_raw": "当汽车不再仅仅是从A点到B点的交通工具，当用户开始追问“这辆车能不能装下我的周末”时，中国汽车市场的竞争逻辑正在经历一场深刻的",
+   "cover": "",
+   "tags": [
+    "新车",
+    "商用车"
+   ],
+   "links": [
+    {
+     "source": "新浪汽车",
+     "url": "https://auto.sina.com.cn/news/2026-11-23/detail-iniztrzu5465565.shtml",
+     "title": "郑州日产NV200 解锁100种栖野生活",
+     "published_at": "2026-11-23T20:31:14+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "新浪汽车报道称，当汽车不再只是从A点到B点的交通工具，用户开始追问车辆能否装下自己的周末时，中国汽车市场的竞争逻辑正经历深刻变化。文章以郑州日产NV200为例，围绕“解锁100种栖野生活”展开，指向车型与户外生活场景的结合。",
+   "comment": "车企叙事从代步转向生活方式，场景化营销成新竞争点。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-23T20:31:14+08:00",
+   "fetched_at_iso": "2026-11-24T07:51:57+08:00"
+  }
+ ],
+ "sources": [
+  {
+   "source_id": "d1ev",
+   "label": "第一电动网",
+   "status": "error",
+   "count": 0,
+   "error": "RuntimeError: 第一电动网所有栏目都抓取失败：/news: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404; /news/shichang: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news/shichang'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404; /news/qiye: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news/qiye'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+   "trace": "Traceback (most recent call last):\n  File \"/home/runner/work/wangzhan/wangzhan/pipeline/fetch.py\", line 31, in run\n    raw = module.fetch(limit=30) or []\n          ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/wangzhan/wangzhan/sources/d1ev.py\", line 98, in fetch\n    raise RuntimeError(\"第一电动网所有栏目都抓取失败：\" + \"; \".join(errors[:3]))\nRuntimeError: 第一电动网所有栏目都抓取失败：/news: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404; /news/shichang: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news/shichang'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404; /news/qiye: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news/qiye'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404\n"
+  },
+  {
+   "source_id": "sina",
+   "label": "新浪汽车",
+   "status": "ok",
+   "count": 15,
+   "error": ""
+  },
+  {
+   "source_id": "cada",
+   "label": "中国汽车流通协会",
+   "status": "ok",
+   "count": 30,
+   "error": ""
+  }
+ ],
+ "stats": {
+  "events": 1,
+  "multi_source": 0,
+  "llm": true
+ }
+}
