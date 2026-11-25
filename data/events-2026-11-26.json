@@ -1,0 +1,135 @@
+{
+ "date": "2026-11-26",
+ "generated_at": "2026-11-26T07:51:53.708612+08:00",
+ "overview": "广州车展前夕，蔚来与Jeep分别发布AI与生态战略，同时充换电大会强调网络互通与标准兼容，显示车企与基建正从单点竞争转向体系化协同。",
+ "events": [
+  {
+   "id": "5516a7a714",
+   "title": "2026广州车展：NIO IN2026蔚来创新科技日",
+   "url": "https://auto.sina.com.cn/news/2026-11-25/detail-inizykqc4146115.shtml",
+   "source": "新浪汽车",
+   "sources": [
+    "新浪汽车"
+   ],
+   "published_at": "2026-11-25T22:21:51+08:00",
+   "fetched_at": "2026-11-26T07:51:53+08:00",
+   "summary_raw": "在2026广州车展开展前夕，2026 NIO IN蔚来创新科技日如期而至。这一届科技日蔚来是把一整年的思考浓缩成一个命题——当AI真的进入一家车企的组织肌体，汽车产业会发生什么。发布会从李斌的主题演讲开始，一路延伸到能源业务、世界模型、NOMI智能座舱，四个板块环环相扣，指向同一个内核：AI Native。 李斌给出的判断相当锋利：智能电动汽车是最具价值的物理AI，汽车产业将是最大的AI应用产业。他把全球汽车产业链摊开来看——从研发、零部件、整车制造，到销售、服务、能源和金融服务，总规模在7万亿到9万亿美元之间。这样复杂而庞大的链条，本身就意味着巨大的AI应用空间。",
+   "cover": "",
+   "tags": [
+    "技术",
+    "智驾",
+    "新能源"
+   ],
+   "links": [
+    {
+     "source": "新浪汽车",
+     "url": "https://auto.sina.com.cn/news/2026-11-25/detail-inizykqc4146115.shtml",
+     "title": "2026广州车展：NIO IN2026蔚来创新科技日",
+     "published_at": "2026-11-25T22:21:51+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "2026广州车展前夕，蔚来创新科技日举行，李斌发表主题演讲，内容延伸至能源业务、世界模型、NOMI智能座舱，指向AI Native内核。李斌判断智能电动汽车是最具价值的物理AI，汽车产业将是最大的AI应用产业…",
+   "comment": "蔚来把AI上升为组织命题，意在用体系化能力拉开竞争差距。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-25T22:21:51+08:00",
+   "fetched_at_iso": "2026-11-26T07:51:53+08:00"
+  },
+  {
+   "id": "9df6945498",
+   "title": "2026广州车展：Jeep发布“Jeep+”生态战略",
+   "url": "https://auto.sina.com.cn/news/2026-11-25/detail-inizxtsc9506646.shtml",
+   "source": "新浪汽车",
+   "sources": [
+    "新浪汽车"
+   ],
+   "published_at": "2026-11-25T15:37:21+08:00",
+   "fetched_at": "2026-11-26T07:51:53+08:00",
+   "summary_raw": "2026年11月25日，在2026广州车展前夕，Jeep品牌在正式发布“Jeep+”生态战略。 发布会上，Jeep公布下一代新能源产品规划与全国网络目标",
+   "cover": "",
+   "tags": [
+    "新能源",
+    "新车",
+    "技术"
+   ],
+   "links": [
+    {
+     "source": "新浪汽车",
+     "url": "https://auto.sina.com.cn/news/2026-11-25/detail-inizxtsc9506646.shtml",
+     "title": "2026广州车展：Jeep发布“Jeep+”生态战略",
+     "published_at": "2026-11-25T15:37:21+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "2026年11月25日，广州车展前夕，Jeep品牌正式发布“Jeep+”生态战略。发布会上，Jeep公布了下一代新能源产品规划与全国网络目标。",
+   "comment": "Jeep以生态战略加码新能源，产品与网络落地节奏成关键。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-25T15:37:21+08:00",
+   "fetched_at_iso": "2026-11-26T07:51:53+08:00"
+  },
+  {
+   "id": "0a2f41bf1b",
+   "title": "“交能聚势·数智赋能”，2026中国汽车充换电生态大会在京举行",
+   "url": "https://auto.sina.com.cn/news/2026-11-25/detail-inizxtsf1801146.shtml",
+   "source": "新浪汽车",
+   "sources": [
+    "新浪汽车"
+   ],
+   "published_at": "2026-11-25T15:22:21+08:00",
+   "fetched_at": "2026-11-26T07:51:53+08:00",
+   "summary_raw": "2026年，汽车充换电行业正从各自建网转向跨品牌、跨领域合作，竞争焦点也转向网络互通、标准兼容与资源的高效利用，充换电设施更是加速从单一补能终端向综合能源节点演进。 面对新形势、新机遇，为更好搭建政产学研用协同创新交流平台，集中展示产业前沿技术与创新成果，11月17日至19日，以“交能聚势·数智赋能”为主题的2026中国汽车充换电生态大会在北京阳光国际会议中心举行，共设置1场闭门会议、1场开幕式暨大会论坛、4场主题论坛以及5个特色专场活动，聚焦产业发展的重点领域与现实问题，为产业在新阶段的高质量发展明晰方向、丰富思路、汇聚合力。",
+   "cover": "",
+   "tags": [
+    "基建",
+    "新能源",
+    "政策"
+   ],
+   "links": [
+    {
+     "source": "新浪汽车",
+     "url": "https://auto.sina.com.cn/news/2026-11-25/detail-inizxtsf1801146.shtml",
+     "title": "“交能聚势·数智赋能”，2026中国汽车充换电生态大会在京举行",
+     "published_at": "2026-11-25T15:22:21+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "2026年，汽车充换电行业正从各自建网转向跨品牌、跨领域合作，竞争焦点转向网络互通、标准兼容与资源高效利用，充换电设施加速从单一补能终端向综合能源节点演进。11月17日至19日，2026中国汽车充换电生态大会在北京举行…",
+   "comment": "充换电从建桩竞赛转向互联互通，标准协同决定行业效率。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-25T15:22:21+08:00",
+   "fetched_at_iso": "2026-11-26T07:51:53+08:00"
+  }
+ ],
+ "sources": [
+  {
+   "source_id": "d1ev",
+   "label": "第一电动网",
+   "status": "error",
+   "count": 0,
+   "error": "RuntimeError: 第一电动网所有栏目都抓取失败：/news: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404; /news/shichang: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news/shichang'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404; /news/qiye: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news/qiye'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+   "trace": "Traceback (most recent call last):\n  File \"/home/runner/work/wangzhan/wangzhan/pipeline/fetch.py\", line 31, in run\n    raw = module.fetch(limit=30) or []\n          ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/wangzhan/wangzhan/sources/d1ev.py\", line 98, in fetch\n    raise RuntimeError(\"第一电动网所有栏目都抓取失败：\" + \"; \".join(errors[:3]))\nRuntimeError: 第一电动网所有栏目都抓取失败：/news: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404; /news/shichang: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news/shichang'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404; /news/qiye: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news/qiye'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404\n"
+  },
+  {
+   "source_id": "sina",
+   "label": "新浪汽车",
+   "status": "ok",
+   "count": 15,
+   "error": ""
+  },
+  {
+   "source_id": "cada",
+   "label": "中国汽车流通协会",
+   "status": "ok",
+   "count": 30,
+   "error": ""
+  }
+ ],
+ "stats": {
+  "events": 3,
+  "multi_source": 0,
+  "llm": true
+ }
+}
