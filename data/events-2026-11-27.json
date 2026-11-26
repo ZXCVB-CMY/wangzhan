@@ -1,0 +1,231 @@
+{
+ "date": "2026-11-27",
+ "generated_at": "2026-11-27T07:57:35.602598+08:00",
+ "overview": "小鹏、华为、蔚来等车企在科技日上密集发布AI与智驾新进展，同时鸿蒙智行强调电池长期安全，行业竞争从功能堆叠转向技术底座与耐久性考验。",
+ "events": [
+  {
+   "id": "10946d0962",
+   "title": "双线叙事的小鹏：机器人比汽车难20倍",
+   "url": "https://auto.sina.com.cn/news/2026-11-27/detail-inkaatuz3602228.shtml",
+   "source": "新浪汽车",
+   "sources": [
+    "新浪汽车"
+   ],
+   "published_at": "2026-11-27T00:29:12+08:00",
+   "fetched_at": "2026-11-27T07:57:35+08:00",
+   "summary_raw": "11月25日小鹏科技日结束后不到一小时，小鹏集团董事长/CEO何小鹏和集团总裁、副董事长顾宏地接受了一次媒体群访。把今年科技日的主题定为“ORIGIN原点”，场地也选在自己的母校，何小鹏的解释是：科技变革的时候，无论个人、技术还是产品，都要重新想一遍“基础是什么、原点是什么”。 95分钟里，问题一半给到了小鹏的人形机器人IRON，一半给到了汽车（飞行汽车）、智驾和全球市场。这恰好也反映了小鹏当下的两张面孔：一张是刚刚学会走路、答完问题还会反问的IRON；一张是已经在中国复杂路况里跑起来的辅助驾驶。 问：王兴兴认为机器人正迎来技术突破的临界点，马斯克预测一年左右机器人就能承担家务。",
+   "cover": "",
+   "tags": [
+    "技术",
+    "智驾"
+   ],
+   "links": [
+    {
+     "source": "新浪汽车",
+     "url": "https://auto.sina.com.cn/news/2026-11-27/detail-inkaatuz3602228.shtml",
+     "title": "双线叙事的小鹏：机器人比汽车难20倍",
+     "published_at": "2026-11-27T00:29:12+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "小鹏科技日以“ORIGIN原点”为主题，何小鹏与顾宏地接受群访。95分钟内问题一半聚焦人形机器人IRON，一半涉及飞行汽车、智驾和全球市场。何小鹏称科技变革时需重新思考基础，IRON刚学会走路，辅助驾驶已在中国复杂路况运行。",
+   "comment": "机器人比汽车难20倍，小鹏双线叙事考验资源与耐心。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-27T00:29:12+08:00",
+   "fetched_at_iso": "2026-11-27T07:57:35+08:00"
+  },
+  {
+   "id": "25b74ab02c",
+   "title": "华为乾崑生态再升级 新品牌与新技术全面赋能",
+   "url": "https://auto.sina.com.cn/news/2026-11-27/detail-inkaatva5926774.shtml",
+   "source": "新浪汽车",
+   "sources": [
+    "新浪汽车"
+   ],
+   "published_at": "2026-11-27T00:22:39+08:00",
+   "fetched_at": "2026-11-27T07:57:35+08:00",
+   "summary_raw": "11月26日，华为乾崑生态大会在广州正式举办，在本次大会上，华为公司高级副总裁、引望公司CEO靳玉志正式发布了辅助驾驶新品牌——“星驰”，该品牌预计在明年正式落地，有超过10款搭载星驰辅助驾驶的新车也将陆续上市。此外，在大会上还带来了更多的全新技术展示，接下来我们就逐一和大家解读一下。 从明年7月1日起，《智能网联汽车 自动驾驶系统安全要求》将正式实施，这是我国首部针对L3和L4级别自动驾驶系统的强制性国家标准。乾崑智驾ADS历经5代演进后，未来将主要面向自动驾驶，打造成行业标杆。",
+   "cover": "",
+   "tags": [
+    "智驾",
+    "政策",
+    "技术"
+   ],
+   "links": [
+    {
+     "source": "新浪汽车",
+     "url": "https://auto.sina.com.cn/news/2026-11-27/detail-inkaatva5926774.shtml",
+     "title": "华为乾崑生态再升级 新品牌与新技术全面赋能",
+     "published_at": "2026-11-27T00:22:39+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "华为乾崑生态大会在广州举办，靳玉志发布辅助驾驶新品牌“星驰”，预计明年落地，超10款搭载新车将陆续上市。大会还展示全新技术。明年7月1日起L3/L4自动驾驶强制性国标实施，乾崑智驾ADS历经5代演进，未来主要面向自动驾驶。",
+   "comment": "新品牌+新国标，华为乾崑加速智驾商业化落地。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-27T00:22:39+08:00",
+   "fetched_at_iso": "2026-11-27T07:57:35+08:00"
+  },
+  {
+   "id": "702b768919",
+   "title": "2026广州车展：鸿蒙智行TECHDAY 电池安全的下半场，考的是第八年",
+   "url": "https://auto.sina.com.cn/news/2026-11-26/detail-inkaaiex8913702.shtml",
+   "source": "新浪汽车",
+   "sources": [
+    "新浪汽车"
+   ],
+   "published_at": "2026-11-26T19:09:07+08:00",
+   "fetched_at": "2026-11-27T07:57:35+08:00",
+   "summary_raw": "11月26日下午，广州。第四次巨鲸电池平台TechDay的现场，主持人没有先放参数，而是先递了麦克风。 一位 智界S7 (配置 |询价) 车主说，两年半跑了26万公里，上次去测电，健康度还有90%。另一位 智界R7 (配置 |询价) 车主说，自己做项目管理，天天在工地上跑，没时间慢充，15.5 万公里全程快充，刚查的健康度是94%。 这两组数字，恰好撞上了行业最不愿正面回答的问题：一块电池，新车的时候过关不难，难的是第五年、第八年，它还过不过关。 中国汽研首席专家在台上把话说得很直白：现行的GB 38031、GB 18384，给动力电池划的是一条“基本合格线”，相当于60分。",
+   "cover": "",
+   "tags": [
+    "电池",
+    "技术"
+   ],
+   "links": [
+    {
+     "source": "新浪汽车",
+     "url": "https://auto.sina.com.cn/news/2026-11-26/detail-inkaaiex8913702.shtml",
+     "title": "2026广州车展：鸿蒙智行TECHDAY 电池安全的下半场，考的是第八年",
+     "published_at": "2026-11-26T19:09:07+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "第四次巨鲸电池平台TechDay在广州举行，两位智界车主分享电池健康度：S7两年半跑26万公里健康度90%，R7全程快充15.5万公里健康度94%。中国汽研专家称现行GB 38031、GB 18384只是动力电池“基本合格线”…",
+   "comment": "电池安全下半场拼的是第八年，长期耐久性成新战场。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-26T19:09:07+08:00",
+   "fetched_at_iso": "2026-11-27T07:57:35+08:00"
+  },
+  {
+   "id": "5516a7a714",
+   "title": "2026广州车展：NIO IN2026蔚来创新科技日",
+   "url": "https://auto.sina.com.cn/news/2026-11-25/detail-inizykqc4146115.shtml",
+   "source": "新浪汽车",
+   "sources": [
+    "新浪汽车"
+   ],
+   "published_at": "2026-11-25T22:21:51+08:00",
+   "fetched_at": "2026-11-26T07:51:53+08:00",
+   "summary_raw": "在2026广州车展开展前夕，2026 NIO IN 蔚来 创新科技日如期而至。这一届科技日蔚来是把一整年的思考浓缩成一个命题——当AI真的进入一家车企的组织肌体，汽车产业会发生什么。发布会从李斌的主题演讲开始，一路延伸到能源业务、世界模型、NOMI智能座舱，四个板块环环相扣，指向同一个内核：AI Native。 李斌给出的判断相当锋利：智能电动汽车是最具价值的物理AI，汽车产业将是最大的AI应用产业。他把全球汽车产业链摊开来看——从研发、零部件、整车制造，到销售、服务、能源和金融服务，总规模在7万亿到9万亿美元之间。这样复杂而庞大的链条，本身就意味着巨大的AI应用空间。",
+   "cover": "",
+   "tags": [
+    "技术",
+    "智驾"
+   ],
+   "links": [
+    {
+     "source": "新浪汽车",
+     "url": "https://auto.sina.com.cn/news/2026-11-25/detail-inizykqc4146115.shtml",
+     "title": "2026广州车展：NIO IN2026蔚来创新科技日",
+     "published_at": "2026-11-25T22:21:51+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "2026 NIO IN蔚来创新科技日举行，主题聚焦AI进入车企组织后的产业变化。李斌演讲后，能源业务、世界模型、NOMI智能座舱依次展开，指向AI Native内核。",
+   "comment": "蔚来押注AI Native，组织变革比技术更值得关注。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-25T22:21:51+08:00",
+   "fetched_at_iso": "2026-11-26T07:51:53+08:00"
+  },
+  {
+   "id": "9df6945498",
+   "title": "2026广州车展：Jeep发布“Jeep+”生态战略",
+   "url": "https://auto.sina.com.cn/news/2026-11-25/detail-inizxtsc9506646.shtml",
+   "source": "新浪汽车",
+   "sources": [
+    "新浪汽车"
+   ],
+   "published_at": "2026-11-25T15:37:21+08:00",
+   "fetched_at": "2026-11-26T07:51:53+08:00",
+   "summary_raw": "2026年11月25日，在2026广州车展前夕，Jeep品牌在正式发布“Jeep+”生态战略。 发布会上，Jeep公布下一代新能源产品规划与全国网络目标",
+   "cover": "",
+   "tags": [
+    "新能源",
+    "新车",
+    "技术"
+   ],
+   "links": [
+    {
+     "source": "新浪汽车",
+     "url": "https://auto.sina.com.cn/news/2026-11-25/detail-inizxtsc9506646.shtml",
+     "title": "2026广州车展：Jeep发布“Jeep+”生态战略",
+     "published_at": "2026-11-25T15:37:21+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "2026年11月25日，广州车展前夕，Jeep品牌正式发布“Jeep+”生态战略。发布会上，Jeep公布了下一代新能源产品规划与全国网络目标。",
+   "comment": "Jeep以生态战略加码新能源，产品与网络落地节奏成关键。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-25T15:37:21+08:00",
+   "fetched_at_iso": "2026-11-26T07:51:53+08:00"
+  },
+  {
+   "id": "0a2f41bf1b",
+   "title": "“交能聚势·数智赋能”，2026中国汽车充换电生态大会在京举行",
+   "url": "https://auto.sina.com.cn/news/2026-11-25/detail-inizxtsf1801146.shtml",
+   "source": "新浪汽车",
+   "sources": [
+    "新浪汽车"
+   ],
+   "published_at": "2026-11-25T15:22:21+08:00",
+   "fetched_at": "2026-11-26T07:51:53+08:00",
+   "summary_raw": "2026年，汽车充换电行业正从各自建网转向跨品牌、跨领域合作，竞争焦点也转向网络互通、标准兼容与资源的高效利用，充换电设施更是加速从单一补能终端向综合能源节点演进。 面对新形势、新机遇，为更好搭建政产学研用协同创新交流平台，集中展示产业前沿技术与创新成果，11月17日至19日，以“交能聚势·数智赋能”为主题的2026中国汽车充换电生态大会在北京阳光国际会议中心举行，共设置1场闭门会议、1场开幕式暨大会论坛、4场主题论坛以及5个特色专场活动，聚焦产业发展的重点领域与现实问题，为产业在新阶段的高质量发展明晰方向、丰富思路、汇聚合力。",
+   "cover": "",
+   "tags": [
+    "基建",
+    "新能源",
+    "政策"
+   ],
+   "links": [
+    {
+     "source": "新浪汽车",
+     "url": "https://auto.sina.com.cn/news/2026-11-25/detail-inizxtsf1801146.shtml",
+     "title": "“交能聚势·数智赋能”，2026中国汽车充换电生态大会在京举行",
+     "published_at": "2026-11-25T15:22:21+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "2026年，汽车充换电行业正从各自建网转向跨品牌、跨领域合作，竞争焦点转向网络互通、标准兼容与资源高效利用，充换电设施加速从单一补能终端向综合能源节点演进。11月17日至19日，2026中国汽车充换电生态大会在北京举行…",
+   "comment": "充换电从建桩竞赛转向互联互通，标准协同决定行业效率。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-25T15:22:21+08:00",
+   "fetched_at_iso": "2026-11-26T07:51:53+08:00"
+  }
+ ],
+ "sources": [
+  {
+   "source_id": "d1ev",
+   "label": "第一电动网",
+   "status": "error",
+   "count": 0,
+   "error": "RuntimeError: 第一电动网所有栏目都抓取失败：/news: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404; /news/shichang: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news/shichang'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404; /news/qiye: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news/qiye'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+   "trace": "Traceback (most recent call last):\n  File \"/home/runner/work/wangzhan/wangzhan/pipeline/fetch.py\", line 31, in run\n    raw = module.fetch(limit=30) or []\n          ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/wangzhan/wangzhan/sources/d1ev.py\", line 98, in fetch\n    raise RuntimeError(\"第一电动网所有栏目都抓取失败：\" + \"; \".join(errors[:3]))\nRuntimeError: 第一电动网所有栏目都抓取失败：/news: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404; /news/shichang: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news/shichang'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404; /news/qiye: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news/qiye'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404\n"
+  },
+  {
+   "source_id": "sina",
+   "label": "新浪汽车",
+   "status": "ok",
+   "count": 15,
+   "error": ""
+  },
+  {
+   "source_id": "cada",
+   "label": "中国汽车流通协会",
+   "status": "ok",
+   "count": 30,
+   "error": ""
+  }
+ ],
+ "stats": {
+  "events": 6,
+  "multi_source": 0,
+  "llm": true
+ }
+}
