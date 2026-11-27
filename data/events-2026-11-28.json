@@ -1,0 +1,513 @@
+{
+ "date": "2026-11-28",
+ "generated_at": "2026-11-28T07:54:18.002793+08:00",
+ "overview": "广州车展期间，车企高管密集释放产品与技术规划：广汽丰田、奕派、神行者等公布新车节奏，MG明确2027年停售燃油车，长安看好HEV替代燃油车，深蓝称超七成用户选纯电，问界则强调L3需整车级架构。主线是电动化与智能化转型加速，矛盾点在于技术落地节奏与产品品质之争。",
+ "events": [
+  {
+   "id": "d28281f8f4",
+   "title": "李莹：明年广汽丰田将推出5款新车",
+   "url": "https://auto.sina.com.cn/news/2026-11-28/detail-inkafazy5373686.shtml",
+   "source": "新浪汽车",
+   "sources": [
+    "新浪汽车"
+   ],
+   "published_at": "2026-11-28T00:56:18+08:00",
+   "fetched_at": "2026-11-28T07:54:18+08:00",
+   "summary_raw": "11 月 27 日，2026广州国际汽车展览会正式开幕，本次车展展览规模达22万平方米，展车共1106台，新能源车达707台，首发新车115台。本次车展",
+   "cover": "",
+   "tags": [
+    "新车",
+    "新能源"
+   ],
+   "links": [
+    {
+     "source": "新浪汽车",
+     "url": "https://auto.sina.com.cn/news/2026-11-28/detail-inkafazy5373686.shtml",
+     "title": "李莹：明年广汽丰田将推出5款新车",
+     "published_at": "2026-11-28T00:56:18+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "在2026广州国际汽车展览会期间，广汽丰田方面李莹表示，明年广汽丰田将推出5款新车。本届车展展览规模达22万平方米，展车共1106台，其中新能源车707台，首发新车115台。",
+   "comment": "5款新车能否帮广汽丰田在智电赛道扳回一城，值得关注。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-28T00:56:18+08:00",
+   "fetched_at_iso": "2026-11-28T07:54:18+08:00"
+  },
+  {
+   "id": "fb2710a87d",
+   "title": "耿树鑫：奕派首发“华为+宁德”智能换电 明年投放三款全新车型",
+   "url": "https://auto.sina.com.cn/news/2026-11-27/detail-inkaesmy7778408.shtml",
+   "source": "新浪汽车",
+   "sources": [
+    "新浪汽车"
+   ],
+   "published_at": "2026-11-27T18:55:26+08:00",
+   "fetched_at": "2026-11-28T07:54:18+08:00",
+   "summary_raw": "",
+   "cover": "",
+   "tags": [
+    "技术",
+    "新车",
+    "电池"
+   ],
+   "links": [
+    {
+     "source": "新浪汽车",
+     "url": "https://auto.sina.com.cn/news/2026-11-27/detail-inkaesmy7778408.shtml",
+     "title": "耿树鑫：奕派首发“华为+宁德”智能换电 明年投放三款全新车型",
+     "published_at": "2026-11-27T18:55:26+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "奕派方面耿树鑫表示，奕派首发“华为+宁德”智能换电方案，并计划明年投放三款全新车型。",
+   "comment": "绑定华为与宁德时代，奕派试图用换电打出差异化。",
+   "summary_kind": "ai",
+   "summary_dup": true,
+   "published_at_iso": "2026-11-27T18:55:26+08:00",
+   "fetched_at_iso": "2026-11-28T07:54:18+08:00"
+  },
+  {
+   "id": "707a7c0f66",
+   "title": "周文：神行者明年推出第二款车型/神行者8销往全球",
+   "url": "https://auto.sina.com.cn/news/2026-11-28/detail-inkafazu7693987.shtml",
+   "source": "新浪汽车",
+   "sources": [
+    "新浪汽车"
+   ],
+   "published_at": "2026-11-28T00:26:44+08:00",
+   "fetched_at": "2026-11-28T07:54:18+08:00",
+   "summary_raw": "11 月 27 日，2026广州国际汽车展览会正式开幕，本次车展展览规模达22万平方米，展车共1106台，新能源车达707台，首发新车115台。本次车展以 “新科技・新生活” 为主题，集中呈现汽车产业电动化、智能化转型成果与全产业链创新生态，智能座舱、高阶智驾、前沿三电技术成为核心看点。 基于此，新浪汽车特邀各大车企及汽车供应链品牌核心高管莅临新浪汽车高端访谈间，共话智能电动时代的产品突破、市场竞争以及对于产业年度收官的思考。 在访谈中，FREELANDER神行者全球CMO周文表示 明年我们会销向全球，神行者8也会卖到中东、卖到欧盟的市场、包括右舵市场。",
+   "cover": "",
+   "tags": [
+    "新车",
+    "出海"
+   ],
+   "links": [
+    {
+     "source": "新浪汽车",
+     "url": "https://auto.sina.com.cn/news/2026-11-28/detail-inkafazu7693987.shtml",
+     "title": "周文：神行者明年推出第二款车型/神行者8销往全球",
+     "published_at": "2026-11-28T00:26:44+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "FREELANDER神行者全球CMO周文在2026广州车展访谈中表示，明年神行者将推出第二款车型，神行者8将销往全球，包括中东、欧盟市场及右舵市场。",
+   "comment": "神行者借新车出海，右舵与欧盟市场是硬仗。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-28T00:26:44+08:00",
+   "fetched_at_iso": "2026-11-28T07:54:18+08:00"
+  },
+  {
+   "id": "68a8b7c310",
+   "title": "李攀：明后年HEV会加速替代传统燃油车",
+   "url": "https://auto.sina.com.cn/news/2026-11-27/detail-inkafazy5348698.shtml",
+   "source": "新浪汽车",
+   "sources": [
+    "新浪汽车"
+   ],
+   "published_at": "2026-11-27T23:55:04+08:00",
+   "fetched_at": "2026-11-28T07:54:18+08:00",
+   "summary_raw": "11 月 27 日，2026广州国际汽车展览会正式开幕，本次车展展览规模达22万平方米，展车共1106台，新能源车达707台，首发新车115台。本次车展以 “新科技・新生活” 为主题，集中呈现汽车产业电动化、智能化转型成果与全产业链创新生态，智能座舱、高阶智驾、前沿三电技术成为核心看点。 基于此，新浪汽车特邀各大车企及汽车供应链品牌核心高管莅临新浪汽车高端访谈间，共话智能电动时代的产品突破、市场竞争以及对于产业年度收官的思考。 在访谈中， 长安汽车 品牌总监李攀表示在明年乃至后年，HEV会加速去替代传统燃油车，未来更省油、更智能的HEV一定会成为主流。",
+   "cover": "",
+   "tags": [
+    "技术",
+    "新能源"
+   ],
+   "links": [
+    {
+     "source": "新浪汽车",
+     "url": "https://auto.sina.com.cn/news/2026-11-27/detail-inkafazy5348698.shtml",
+     "title": "李攀：明后年HEV会加速替代传统燃油车",
+     "published_at": "2026-11-27T23:55:04+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "长安汽车品牌总监李攀在2026广州车展访谈中表示，明年乃至后年，HEV会加速替代传统燃油车，未来更省油、更智能的HEV一定会成为主流。",
+   "comment": "HEV被长安视为过渡期主力，路线之争再起。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-27T23:55:04+08:00",
+   "fetched_at_iso": "2026-11-28T07:54:18+08:00"
+  },
+  {
+   "id": "c7e264800f",
+   "title": "罗建华：启境GX7明年将推出更高维度智驾版本",
+   "url": "https://auto.sina.com.cn/news/2026-11-27/detail-inkafazt0894816.shtml",
+   "source": "新浪汽车",
+   "sources": [
+    "新浪汽车"
+   ],
+   "published_at": "2026-11-27T23:35:39+08:00",
+   "fetched_at": "2026-11-28T07:54:18+08:00",
+   "summary_raw": "在访谈中，启境GX7产品总经理罗建华表示，目前国内市场比较卷，变化也比较大，我们现在更多的是关注自己的产品节奏和方向，明年我们会有不",
+   "cover": "",
+   "tags": [
+    "智驾",
+    "新车"
+   ],
+   "links": [
+    {
+     "source": "新浪汽车",
+     "url": "https://auto.sina.com.cn/news/2026-11-27/detail-inkafazt0894816.shtml",
+     "title": "罗建华：启境GX7明年将推出更高维度智驾版本",
+     "published_at": "2026-11-27T23:35:39+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "启境GX7产品总经理罗建华在2026广州车展访谈中表示，目前国内市场比较卷、变化较大，启境更多关注自身产品节奏和方向，明年将推出更高维度的智驾版本。",
+   "comment": "不跟风内卷，启境押注智驾版本升级突围。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-27T23:35:39+08:00",
+   "fetched_at_iso": "2026-11-28T07:54:18+08:00"
+  },
+  {
+   "id": "64a739f021",
+   "title": "房楠：深蓝超过70%的用户选择纯电",
+   "url": "https://auto.sina.com.cn/news/2026-11-27/detail-inkafazy5341441.shtml",
+   "source": "新浪汽车",
+   "sources": [
+    "新浪汽车"
+   ],
+   "published_at": "2026-11-27T23:34:41+08:00",
+   "fetched_at": "2026-11-28T07:54:18+08:00",
+   "summary_raw": "11 月 27 日，2026广州国际汽车展览会正式开幕，本次车展展览规模达22万平方米，展车共1106台，新能源车达707台，首发新车115台。本次车展以 “新科技・新生活” 为主题，集中呈现汽车产业电动化、智能化转型成果与全产业链创新生态，智能座舱、高阶智驾、前沿三电技术成为核心看点。 基于此，新浪汽车特邀各大车企及汽车供应链品牌核心高管莅临新浪汽车高端访谈间，共话智能电动时代的产品突破、市场竞争以及对于产业年度收官的思考。 在访谈中，深蓝汽车品牌总经理房楠表示，用户对车型和配置的选择在变化，纯电需求持续增长，目前深蓝超过70%的用户选择纯电；",
+   "cover": "",
+   "tags": [
+    "销量",
+    "新能源"
+   ],
+   "links": [
+    {
+     "source": "新浪汽车",
+     "url": "https://auto.sina.com.cn/news/2026-11-27/detail-inkafazy5341441.shtml",
+     "title": "房楠：深蓝超过70%的用户选择纯电",
+     "published_at": "2026-11-27T23:34:41+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "深蓝汽车品牌总经理房楠在2026广州车展访谈中表示，用户对车型和配置的选择在变化，纯电需求持续增长，目前深蓝超过70%的用户选择纯电。",
+   "comment": "七成用户选纯电，深蓝的增程标签正在被稀释。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-27T23:34:41+08:00",
+   "fetched_at_iso": "2026-11-28T07:54:18+08:00"
+  },
+  {
+   "id": "621cb79fcb",
+   "title": "翟联信：坚定地反对“速成车”产品",
+   "url": "https://auto.sina.com.cn/news/2026-11-27/detail-inkaewtw7794909.shtml",
+   "source": "新浪汽车",
+   "sources": [
+    "新浪汽车"
+   ],
+   "published_at": "2026-11-27T23:17:24+08:00",
+   "fetched_at": "2026-11-28T07:54:18+08:00",
+   "summary_raw": "11 月 27 日，2026广州国际汽车展览会正式开幕，本次车展展览规模达22万平方米，展车共1106台，新能源车达707台，首发新车115台。本次车展以 “新科技・新生活” 为主题，集中呈现汽车产业电动化、智能化转型成果与全产业链创新生态，智能座舱、高阶智驾、前沿三电技术成为核心看点。 基于此，新浪汽车特邀各大车企及汽车供应链品牌核心高管莅临新浪汽车高端访谈间，共话智能电动时代的产品突破、市场竞争以及对于产业年度收官的思考。 在访谈中，星途汽车副总经理翟联星表示星途汽车始终认为汽车不是快消品，我们坚定地反对“速成车”产品。",
+   "cover": "",
+   "tags": [
+    "技术"
+   ],
+   "links": [
+    {
+     "source": "新浪汽车",
+     "url": "https://auto.sina.com.cn/news/2026-11-27/detail-inkaewtw7794909.shtml",
+     "title": "翟联信：坚定地反对“速成车”产品",
+     "published_at": "2026-11-27T23:17:24+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "星途汽车副总经理翟联信在2026广州车展访谈中表示，星途汽车始终认为汽车不是快消品，坚定地反对“速成车”产品。",
+   "comment": "反对速成车，星途在品质与节奏上亮明态度。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-27T23:17:24+08:00",
+   "fetched_at_iso": "2026-11-28T07:54:18+08:00"
+  },
+  {
+   "id": "23c525ce72",
+   "title": "2026广州车展：问界带来L3技术解析",
+   "url": "https://auto.sina.com.cn/news/2026-11-27/detail-inkaewtv1013967.shtml",
+   "source": "新浪汽车",
+   "sources": [
+    "新浪汽车"
+   ],
+   "published_at": "2026-11-27T23:09:03+08:00",
+   "fetched_at": "2026-11-28T07:54:18+08:00",
+   "summary_raw": "在刚刚开幕的2026广州车展上，问界带来了一场别开生面的发布会，因为这次主要是聊整车一体L3架构技术。L3技术绝不是多塞几颗芯片、多加几组雷达这么简单，也不是只靠算法在实验室里磨出来的，而是一套从车辆设计之初就要考虑进去的整车级系统工程。 在过去的时候，不少车企是先把车造出来，再在智驾域上单独改造，后期加装传感器和控制单元，冗余、底盘、供电各管一块。但是问界是反过来走，在概念设计阶段就把架构定义清楚，智驾、底盘、动力、车身、座舱、车联网从一开始就打通，而不是出了问题再打补丁。 整套架构由感知、决策、体验、底座四层串成一条链路。",
+   "cover": "",
+   "tags": [
+    "智驾",
+    "技术"
+   ],
+   "links": [
+    {
+     "source": "新浪汽车",
+     "url": "https://auto.sina.com.cn/news/2026-11-27/detail-inkaewtv1013967.shtml",
+     "title": "2026广州车展：问界带来L3技术解析",
+     "published_at": "2026-11-27T23:09:03+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "在2026广州车展上，问界带来整车一体L3架构技术解析。问界称L3不是多塞芯片、多加雷达或仅靠算法，而是从车辆设计之初就考虑进去的整车级系统工程，其架构由感知、决策、体验、底座四层串成一条链路。",
+   "comment": "L3竞争从堆硬件转向整车架构，门槛被抬高。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-27T23:09:03+08:00",
+   "fetched_at_iso": "2026-11-28T07:54:18+08:00"
+  },
+  {
+   "id": "6268685e0e",
+   "title": "2026广州车展：MG官宣将全面停产燃油车",
+   "url": "https://auto.sina.com.cn/news/2026-11-27/detail-inkaewtv1007625.shtml",
+   "source": "新浪汽车",
+   "sources": [
+    "新浪汽车"
+   ],
+   "published_at": "2026-11-27T22:56:36+08:00",
+   "fetched_at": "2026-11-28T07:54:18+08:00",
+   "summary_raw": "在2026广州车展上，MG品牌官宣了一则重磅消息，那就是自2027年1月1日起，MG将面向中国大陆市场全面停产燃油车，正式进入到新能源时代。这是继比亚迪之后，又一家给出明确燃油车退出节点的主流车企。 把这件事放到政策背景里看，其实是顺势而为。这些年国内新能源汽车的方向一直很明确，双碳目标要求交通领域加快低碳替代，双积分政策持续收紧，2026年、2027年新能源汽车积分比例要求分别提到48%和58%，燃油车占比越高，车企面对的成本压力就越大。",
+   "cover": "",
+   "tags": [
+    "政策",
+    "新能源"
+   ],
+   "links": [
+    {
+     "source": "新浪汽车",
+     "url": "https://auto.sina.com.cn/news/2026-11-27/detail-inkaewtv1007625.shtml",
+     "title": "2026广州车展：MG官宣将全面停产燃油车",
+     "published_at": "2026-11-27T22:56:36+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "在2026广州车展上，MG品牌官宣自2027年1月1日起面向中国大陆市场全面停产燃油车，正式进入新能源时代，成为继比亚迪之后又一家给出明确燃油车退出节点的主流车企。",
+   "comment": "MG给出停油时间表，双积分压力下转型不可逆。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-27T22:56:36+08:00",
+   "fetched_at_iso": "2026-11-28T07:54:18+08:00"
+  },
+  {
+   "id": "ea777fa2ab",
+   "title": "赵晨阳：北京越野以三大产品系列拥抱方盒子大众化",
+   "url": "https://auto.sina.com.cn/news/2026-11-27/detail-inkaesnc3149387.shtml",
+   "source": "新浪汽车",
+   "sources": [
+    "新浪汽车"
+   ],
+   "published_at": "2026-11-27T19:47:59+08:00",
+   "fetched_at": "2026-11-28T07:54:18+08:00",
+   "summary_raw": "",
+   "cover": "",
+   "tags": [
+    "新车"
+   ],
+   "links": [
+    {
+     "source": "新浪汽车",
+     "url": "https://auto.sina.com.cn/news/2026-11-27/detail-inkaesnc3149387.shtml",
+     "title": "赵晨阳：北京越野以三大产品系列拥抱方盒子大众化",
+     "published_at": "2026-11-27T19:47:59+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "北京越野方面赵晨阳表示，北京越野将以三大产品系列拥抱方盒子大众化趋势。",
+   "comment": "方盒子从小众走向大众，北京越野需守住专业底色。",
+   "summary_kind": "ai",
+   "summary_dup": false,
+   "published_at_iso": "2026-11-27T19:47:59+08:00",
+   "fetched_at_iso": "2026-11-28T07:54:18+08:00"
+  },
+  {
+   "id": "5b2af67543",
+   "title": "藤桥稔：坚持全球统一品控 长安马自达以品质与驾控应对行业“速成”之风",
+   "url": "https://auto.sina.com.cn/news/2026-11-27/detail-inkaesne5456014.shtml",
+   "source": "新浪汽车",
+   "sources": [
+    "新浪汽车"
+   ],
+   "published_at": "2026-11-27T19:09:37+08:00",
+   "fetched_at": "2026-11-28T07:54:18+08:00",
+   "summary_raw": "",
+   "cover": "",
+   "tags": [
+    "技术"
+   ],
+   "links": [
+    {
+     "source": "新浪汽车",
+     "url": "https://auto.sina.com.cn/news/2026-11-27/detail-inkaesne5456014.shtml",
+     "title": "藤桥稔：坚持全球统一品控 长安马自达以品质与驾控应对行业“速成”之风",
+     "published_at": "2026-11-27T19:09:37+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "长安马自达方面藤桥稔表示，长安马自达坚持全球统一品控，以品质与驾控应对行业“速成”之风。",
+   "comment": "以全球品控对垒速成风，马自达打品质牌。",
+   "summary_kind": "ai",
+   "summary_dup": true,
+   "published_at_iso": "2026-11-27T19:09:37+08:00",
+   "fetched_at_iso": "2026-11-28T07:54:18+08:00"
+  },
+  {
+   "id": "2915c297d3",
+   "title": "弋途科技吴小航：AI时代汽车不止于智能交互 更要成为主动服务的入口",
+   "url": "https://auto.sina.com.cn/news/2026-11-27/detail-inkaenef3211668.shtml",
+   "source": "新浪汽车",
+   "sources": [
+    "新浪汽车"
+   ],
+   "published_at": "2026-11-27T18:06:56+08:00",
+   "fetched_at": "2026-11-28T07:54:18+08:00",
+   "summary_raw": "",
+   "cover": "",
+   "tags": [
+    "技术",
+    "智驾"
+   ],
+   "links": [
+    {
+     "source": "新浪汽车",
+     "url": "https://auto.sina.com.cn/news/2026-11-27/detail-inkaenef3211668.shtml",
+     "title": "弋途科技吴小航：AI时代汽车不止于智能交互 更要成为主动服务的入口",
+     "published_at": "2026-11-27T18:06:56+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "弋途科技吴小航表示，AI时代汽车不止于智能交互，更要成为主动服务的入口。",
+   "comment": "从交互到主动服务，AI上车竞争进入新阶段。",
+   "summary_kind": "ai",
+   "summary_dup": true,
+   "published_at_iso": "2026-11-27T18:06:56+08:00",
+   "fetched_at_iso": "2026-11-28T07:54:18+08:00"
+  },
+  {
+   "id": "10946d0962",
+   "title": "双线叙事的小鹏：机器人比汽车难20倍",
+   "url": "https://auto.sina.com.cn/news/2026-11-27/detail-inkaatuz3602228.shtml",
+   "source": "新浪汽车",
+   "sources": [
+    "新浪汽车"
+   ],
+   "published_at": "2026-11-27T00:29:12+08:00",
+   "fetched_at": "2026-11-27T07:57:35+08:00",
+   "summary_raw": "",
+   "cover": "",
+   "tags": [
+    "技术"
+   ],
+   "links": [
+    {
+     "source": "新浪汽车",
+     "url": "https://auto.sina.com.cn/news/2026-11-27/detail-inkaatuz3602228.shtml",
+     "title": "双线叙事的小鹏：机器人比汽车难20倍",
+     "published_at": "2026-11-27T00:29:12+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "小鹏汽车的双线叙事中，机器人业务比汽车业务难20倍。",
+   "comment": "机器人难20倍，小鹏双线投入考验资源分配。",
+   "summary_kind": "ai",
+   "summary_dup": true,
+   "published_at_iso": "2026-11-27T00:29:12+08:00",
+   "fetched_at_iso": "2026-11-27T07:57:35+08:00"
+  },
+  {
+   "id": "25b74ab02c",
+   "title": "华为乾崑生态再升级 新品牌与新技术全面赋能",
+   "url": "https://auto.sina.com.cn/news/2026-11-27/detail-inkaatva5926774.shtml",
+   "source": "新浪汽车",
+   "sources": [
+    "新浪汽车"
+   ],
+   "published_at": "2026-11-27T00:22:39+08:00",
+   "fetched_at": "2026-11-27T07:57:35+08:00",
+   "summary_raw": "",
+   "cover": "",
+   "tags": [
+    "智驾",
+    "技术"
+   ],
+   "links": [
+    {
+     "source": "新浪汽车",
+     "url": "https://auto.sina.com.cn/news/2026-11-27/detail-inkaatva5926774.shtml",
+     "title": "华为乾崑生态再升级 新品牌与新技术全面赋能",
+     "published_at": "2026-11-27T00:22:39+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "华为乾崑生态再升级，新品牌与新技术全面赋能。",
+   "comment": "乾崑生态扩容，华为赋能边界继续外扩。",
+   "summary_kind": "ai",
+   "summary_dup": true,
+   "published_at_iso": "2026-11-27T00:22:39+08:00",
+   "fetched_at_iso": "2026-11-27T07:57:35+08:00"
+  },
+  {
+   "id": "702b768919",
+   "title": "2026广州车展：鸿蒙智行TECHDAY 电池安全的下半场，考的是第八年",
+   "url": "https://auto.sina.com.cn/news/2026-11-26/detail-inkaaiex8913702.shtml",
+   "source": "新浪汽车",
+   "sources": [
+    "新浪汽车"
+   ],
+   "published_at": "2026-11-26T19:09:07+08:00",
+   "fetched_at": "2026-11-27T07:57:35+08:00",
+   "summary_raw": "",
+   "cover": "",
+   "tags": [
+    "电池",
+    "技术"
+   ],
+   "links": [
+    {
+     "source": "新浪汽车",
+     "url": "https://auto.sina.com.cn/news/2026-11-26/detail-inkaaiex8913702.shtml",
+     "title": "2026广州车展：鸿蒙智行TECHDAY 电池安全的下半场，考的是第八年",
+     "published_at": "2026-11-26T19:09:07+08:00"
+    }
+   ],
+   "multi_source": false,
+   "summary": "2026广州车展鸿蒙智行TECHDAY聚焦电池安全，提出电池安全的下半场考的是第八年。",
+   "comment": "电池安全转向长周期考验，第八年成新标尺。",
+   "summary_kind": "ai",
+   "summary_dup": true,
+   "published_at_iso": "2026-11-26T19:09:07+08:00",
+   "fetched_at_iso": "2026-11-27T07:57:35+08:00"
+  }
+ ],
+ "sources": [
+  {
+   "source_id": "d1ev",
+   "label": "第一电动网",
+   "status": "error",
+   "count": 0,
+   "error": "RuntimeError: 第一电动网所有栏目都抓取失败：/news: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404; /news/shichang: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news/shichang'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404; /news/qiye: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news/qiye'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+   "trace": "Traceback (most recent call last):\n  File \"/home/runner/work/wangzhan/wangzhan/pipeline/fetch.py\", line 31, in run\n    raw = module.fetch(limit=30) or []\n          ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/wangzhan/wangzhan/sources/d1ev.py\", line 98, in fetch\n    raise RuntimeError(\"第一电动网所有栏目都抓取失败：\" + \"; \".join(errors[:3]))\nRuntimeError: 第一电动网所有栏目都抓取失败：/news: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404; /news/shichang: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news/shichang'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404; /news/qiye: HTTPStatusError: Client error '404 Not Found' for url 'https://www.d1ev.com/news/qiye'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404\n"
+  },
+  {
+   "source_id": "sina",
+   "label": "新浪汽车",
+   "status": "ok",
+   "count": 15,
+   "error": ""
+  },
+  {
+   "source_id": "cada",
+   "label": "中国汽车流通协会",
+   "status": "ok",
+   "count": 30,
+   "error": ""
+  }
+ ],
+ "stats": {
+  "events": 15,
+  "multi_source": 0,
+  "llm": true
+ }
+}
